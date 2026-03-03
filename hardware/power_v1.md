@@ -1,7 +1,23 @@
-# Power Architecture – V1 (no on-board charging)
+# Power Architecture - V1 (No On-Board Charging)
 
-- Sources: USB-C 5V OR 2×NiMH (2S) via boost to 5V
-- Rails: SYS_5V -> low-noise SYS_3V3 for MCU + VS1053B, AVDD filtered from SYS_3V3
-- V1 power-path: Schottky OR-ing; V2: ideal diode/power mux
-- Battery monitoring: divider to MCU ADC + firmware cutoff
-- Layout: separate noisy power ground from analog audio ground, join at one point
+## Sources
+
+- USB-C 5V
+- 2x NiMH (2S), boosted to 5V
+
+## Rails
+
+- SYS_5V
+- Low-noise SYS_3V3 for MCU + VS1053B
+- AVDD filtered from SYS_3V3
+
+## Power Path
+
+- V1: Schottky OR-ing
+- V2: ideal diode/power mux
+
+## Monitoring and Layout Notes
+
+- Battery monitoring via divider to MCU ADC, with firmware cutoff.
+- Keep noisy power ground separate from analog audio ground and join at one
+  point.

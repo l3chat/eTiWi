@@ -1,11 +1,13 @@
-# Interfaces – VS1053B <-> MCU
+# Interfaces - VS1053B and MCU
 
-Minimum:
+## Minimum Signals
+
 - SPI: SCK, MOSI, MISO
 - xCS (SCI), xDCS (SDI)
 - DREQ, xRESET
 - MCLK into XTALI (from MCU)
 
-Rules:
-- MCLK stable before releasing reset
-- SDI writes only when DREQ high
+## Rules
+
+- MCLK must be stable before releasing reset.
+- SDI writes only when DREQ is high.

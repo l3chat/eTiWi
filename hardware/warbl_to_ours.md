@@ -1,8 +1,14 @@
-# WARBL -> Our Instrument (ideas to adopt)
+# WARBL to Our Instrument (Ideas to Adopt)
 
-- Breath/pressure mapping: velocity, CC2, aftertouch; curves + smoothing
-- Overblow/register: hysteresis + optional jump/drop delays
-- Spurious note suppression: finger debounce/transient filter
-- Fingering tables: bitmask -> note + modifiers; transpose; presets
-- Presets: save/import/export (JSON)
-License note: WARBL is GPL-3.0; prefer clean-room reimplementation.
+## Candidate Behaviors
+
+- Breath/pressure mapping: velocity, CC2, aftertouch, with curves and
+  smoothing.
+- Overblow/register handling: hysteresis plus optional jump/drop delays.
+- Spurious note suppression: finger debounce and transient filtering.
+- Fingering tables: bitmask to note plus modifiers, transpose, and presets.
+- Presets: save/import/export as JSON.
+
+## License Note
+
+WARBL is GPL-3.0. Prefer a clean-room reimplementation.
