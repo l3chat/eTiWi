@@ -8,8 +8,12 @@ board aimed at real-time MIDI playback and play-along use.
 - 2x NiMH, no on-board charging
 - SYS_5V + low-noise SYS_3V3
 - VS1053B on same PCB
+- VS1053B clocked from MCU MCLK (no dedicated quartz/crystal)
+- FRAM for non-volatile settings/presets (not EEPROM)
 - Headphones primary, line-out, speaker via amp, auto-mute with jack switch
 - Play-along via MIDI backing tracks
+- V1 controls: power switch, rotary encoder with push, play/stop, back/function
+- MCU + storage direction to evaluate: RP2350B plus large external flash
 
 ## Document Index
 

@@ -16,3 +16,4 @@
 - Keep boost switch node small and away from analog.
 - Keep speaker outputs away from analog.
 - Keep MCLK short; consider a series resistor near MCU.
+- VS1053B clock is provided by MCU MCLK in V1 (no dedicated VS1053B crystal).

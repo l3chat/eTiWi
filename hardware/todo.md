@@ -18,6 +18,8 @@
 - [ ] Define I2C bus plan and addresses for OLED + pressure sensor candidates.
 - [ ] Decide pressure sensor candidate for V1 (LPS28DFWTR, LPS25HBTR, or
   LPS22HHTR) and confirm voltage/interface fit.
+- [ ] Evaluate RP2350B fit for V1 I/O (ADC count, interfaces, GPIO budget).
+- [ ] Define external flash interface and target size class for firmware/assets.
 - [ ] Decide analog/power ground split regions and single-point tie location
   on PCB.
 
@@ -28,3 +30,7 @@
 - [x] USB-C: power + USB-MIDI.
 - [x] SYS_5V + SYS_3V3 architecture.
 - [x] Speaker uses dedicated amplifier.
+- [x] VS1053B clock comes from MCU MCLK; no dedicated VS1053B quartz/crystal.
+- [x] FRAM selected for non-volatile settings/presets (instead of EEPROM).
+- [x] V1 controls selected: power switch, rotary encoder with push, play/stop,
+  and back/function button.

@@ -9,6 +9,12 @@
 
 - Speaker amp: mono Class-D on 5V, analog input, EN/MUTE pin.
 
+## Memory and Storage
+
+- Non-volatile settings/presets/calibration: use FRAM (not EEPROM).
+- MCU/storage direction to evaluate: RP2350B plus large external flash
+  (QSPI-class), with capacity target based on firmware + asset needs.
+
 ## Source OR-ing
 
 - V1: Schottky OR-ing.

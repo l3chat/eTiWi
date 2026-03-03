@@ -32,3 +32,5 @@ planning, not firmware implementation.
 2. Execute the next scoped task with minimal, targeted changes.
 3. Update `MEMORY.md` with stable decisions only.
 4. Update `CHAT.md` with what changed this session and next actions.
+5. Before every `git commit`, refresh `MEMORY.md` and `CHAT.md` so they match
+   the staged changes.
