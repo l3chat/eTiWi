@@ -89,3 +89,5 @@ Stand: 2026-11-23
   PDF, not exact KiCad page export. No PCB preview until native PCB exists.
 
 - CI fix 2026-11-23: GitHub Actions KiCad 9 container needs `options: --user 0` because the non-root default user cannot write GitHub runner's `/__w/_temp/_runner_file_commands/save_state_*` during `actions/checkout@v4` (EACCES). This is a checkout environment problem, not a KiCad/ERC error. Results from the retriggered run are not yet verified.
+
+- Workflow debug 2026-11-23: added snapshot of KiCad source schematic to CI artifact and library-environment log to diagnose 96 endpoint_off_grid, 88 lib_symbol_issues, 11 footprint_link_issues; preparing readable multi-sheet source.

@@ -28,6 +28,9 @@ jobs:
           mkdir -p mini-preview
           kicad-cli version | tee mini-preview/kicad-version.txt
           SCHEMATIC=mini/hardware/kicad/eTiWi-mini.kicad_sch
+          cp "$SCHEMATIC" mini-preview/eTiWi-mini-source.kicad_sch
+          printf 'KICAD data directory: '; ls -ld /usr/share/kicad /usr/share/kicad/symbols /usr/share/kicad/footprints 2>&1 || true
+          env | grep '^KICAD' || true
           BOARD=mini/hardware/kicad/eTiWi-mini.kicad_pcb
           kicad-cli sch export pdf "$SCHEMATIC" -o mini-preview/eTiWi-mini-schematic.pdf
           kicad-cli sch export netlist "$SCHEMATIC" -o mini-preview/eTiWi-mini.net

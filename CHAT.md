@@ -95,3 +95,9 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - User supplied job log: `actions/checkout@v4` fails with `EACCES` writing `/__w/_temp/_runner_file_commands/save_state_*` inside `ghcr.io/kicad/kicad:9.0`.
 - Updated workflow container options to `--user 0`; this is a standard workaround for GitHub Actions job containers with non-root default users.
 - No verified outcome for the new workflow run; inspect the run artifacts, PDF export, and ERC report next.
+
+## 2026-11-23: KiCad PDF/ERC diagnostics
+
+- User reported native KiCad PDF is poorly laid out; confirmed schematic parts outside A3 and title block overlap.
+- ERC findings: 96 endpoint_off_grid, 88 lib_symbol_issues, 11 footprint_link_issues (195 warnings, not 0 valid issues).
+- Added native editable schematic snapshot to GitHub artifact and KiCad library environment logging for local analysis before substantive layout restructure.
