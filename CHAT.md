@@ -178,3 +178,9 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
   memberships. No electrical changes due to cosmetic cleanup.
 - Added manufacturer FOOTPRINT_AUDIT.md to future workflow artifacts.
 - PCB layout/DRC still intentionally not begun pending mechanical validation.
+
+## 2026-11-23 AP2112K / parts audit
+
+- Verified RP2354A pin map, L1 polarity dot should be on +1V1 side according to Raspberry Pi guide Figure 4, NXP MPR121 COL package, ST LPS28DFW package and JLC supplier catalog.
+- Discovered real missing U4 input capacitor and only 100nF U4 output. Corrected C2 and added C201 1uF 0603 input, datasheet-matched Samsung C26413.
+- Updated BOM / FOOTPRINT_AUDIT. KiCad ERC now CI-fatal on warnings/errors; native ERC and netlist require rerun after this change.

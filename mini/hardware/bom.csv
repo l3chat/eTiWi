@@ -1,5 +1,6 @@
 Designator,Value,Footprint,Manufacturer,Manufacturer_Part_Number,LCSC_Candidate,Assembly_Status,Notes
-C2,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C2,1uF 10V X5R,Capacitor_SMD:C_0603_1608Metric,Samsung Electro-Mechanics,CL10A105KP8NNNC,C26413,Factory SMT,AP2112K output capacitor 1uF close to U4 pin5
+C201,1uF 10V X5R,Capacitor_SMD:C_0603_1608Metric,Samsung Electro-Mechanics,CL10A105KP8NNNC,C26413,Factory SMT,AP2112K input capacitor 1uF close to U4 pin1
 C5,10pF,Capacitor_SMD:C_0603_1608Metric,Samsung,CL10C100JB8NFNC,,Needs manufacturer footprint and JLC availability review,
 C6,10pF,Capacitor_SMD:C_0603_1608Metric,Samsung,CL10C100JB8NFNC,,Needs manufacturer footprint and JLC availability review,
 C24,4.7μF,Capacitor_SMD:C_0402_1005Metric,Murata,GRM155D80E475ME47J,,Needs manufacturer footprint and JLC availability review,

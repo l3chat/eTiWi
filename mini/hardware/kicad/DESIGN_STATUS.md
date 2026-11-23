@@ -139,3 +139,12 @@ See [FOOTPRINT_AUDIT.md](FOOTPRINT_AUDIT.md). U3 LPS28DFW local footprint copper
 - No PCB has yet been created; U3 orientation/paste, USB-C mechanical
   cutout, RP2354A polarized switching inductor and supplier BOM must
   be approved at PCB design / assembly review.
+
+## 2026-11-23 — AP2112K regulator schematic gate
+
+Manufacturing review uncovered missing local U4 input capacitor and undersized
+C2 output bypass. Updated U4 local decoupling to C201 1uF VBUS/GND and
+C2 1uF +3V3/GND, Samsung CL10A105KP8NNNC 0603, JLCPCB C26413.
+The KiCad ERC is now invoked with `--exit-code-violations` so warnings/errors
+make GitHub Actions red while reports are still uploaded. Actual CI/netlist
+pass must be checked after this commit. See `FOOTPRINT_AUDIT.md`.

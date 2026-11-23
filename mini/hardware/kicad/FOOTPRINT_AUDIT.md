@@ -87,3 +87,45 @@ of these. No `*.kicad_pcb`, DRC, Gerbers or CPL currently exists.
   https://jlcpcb.com/partdetail/AbraconLLC-AOTA_B201610S3R3_101T/C42411119
 - The manufacturing footprints remain subject to pad, assembly rotation
   and available stock confirmation; candidates in BOM are **not** approval.
+
+## 2026-11-23: LDO electrical design correction (verified against Diodes datasheet)
+
+**Actual schematic defect found** after netlist audit:
+the existing AP2112K-3.3 U4 had no local VIN bulk capacitor; its only
+local VOUT capacitor C2 was 0.1uF 0402. Diodes' AP2112 Typical Application
+shows **CIN 1uF and COUT 1uF** ceramic (prefer X7R/X5R).
+
+- Changed **C2** to Samsung CL10A105KP8NNNC 1uF 10V X5R 0603
+  (JLCPCB C26413) on +3V3/GND.
+- Added **C201** (same part) on VBUS/GND, 1uF, and connected it to the
+  input supply net of U4. Both must be routed physically adjacent to
+  the LDO on the PCB.
+- Since KiCad ERC historically returned zero despite missing CIN, added
+  a dedicated **netlist gate** to future CI.
+- The RGB LED D1 from reference is on 5V VBUS but data/clock are 3V3
+  CMOS; VIH margin and JLCPCB assembly should be reviewed. Do not make
+  it mandatory for the first physical prototype.
+- Schematic change/CI output pending verification at time of this entry.
+
+Diodes AP2112 datasheet:
+https://www.diodes.com/assets/Datasheets/AP2112.pdf
+JLCPCB capacitor:
+https://jlcpcb.com/partdetail/27157-CL10A105KP8NNNC/C26413
+
+### Current sourced major ICs (catalog *presence*, not guaranteed stock)
+
+| Reference | Manufacturer part | JLC PCB component code | Status |
+| --- | --- | --- | --- |
+| U1 | RP2354A | C41378174 | Listed for SMT assembly |
+| U2 | MPR121QR2 | C91322 | Listed, Extended |
+| U3 | LPS28DFWTR | C3263277 | Listed, Extended; stock/lead-time uncertainty |
+| U4 | AP2112K-3.3TRG1 | C51118 | Listed |
+| L1 | AOTA-B201610S3R3-101-T | C42411119 | Listed, note polarized |
+| Y1 | ABM8-272-T3 | C20625731 | Listed |
+| J1 | TYPE-C-31-M-14 | C223907 | Listed; verify mechanical slot/edge |
+| C2,C201 | CL10A105KP8NNNC | C26413 | Listed; 1uF 10V X5R 0603 |
+
+**Still open**: ST LPS28DFW orientation/port placement at board level,
+USB ESD and routing, crystal exact load network, L1 dot-side placement,
+MPR121 COL footprint terminal pad geometry, exact board dimensions and
+JLCPCB current procurement availability. Board layout is not fab-ready.

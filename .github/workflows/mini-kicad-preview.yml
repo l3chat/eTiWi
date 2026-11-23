@@ -36,10 +36,16 @@ jobs:
           kicad-cli sch export pdf "$SCHEMATIC" -o mini-preview/eTiWi-mini-schematic.pdf
           kicad-cli sch export netlist "$SCHEMATIC" -o mini-preview/eTiWi-mini.net
           set +e
-          kicad-cli sch erc "$SCHEMATIC" -o mini-preview/eTiWi-mini-erc.txt
+          kicad-cli sch erc --exit-code-violations "$SCHEMATIC" -o mini-preview/eTiWi-mini-erc.txt
           ERC_CODE=$?
           set -e
           printf "ERC exit code: %s\n" "$ERC_CODE" | tee mini-preview/erc-summary.txt
+          # --exit-code-violations makes a CI run fail on actual ERC warnings/errors
+          # while "Upload ..." (if: always()) still publishes the diagnostic report.
+          if [ "$ERC_CODE" -ne 0 ]; then
+            echo "KiCad ERC has violations; see eTiWi-mini-erc.txt"
+            exit "$ERC_CODE"
+          fi
           if [ -f "$BOARD" ]; then
             kicad-cli pcb export pdf "$BOARD" --layers F.Cu,F.SilkS,Edge.Cuts -o mini-preview/eTiWi-mini-pcb.pdf
             set +e

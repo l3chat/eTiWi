@@ -10401,7 +10401,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "1uF 10V X5R"
 			(at 541.02 182.8798 0)
 			(effects
 				(font
@@ -10410,7 +10410,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 531.4696 172.72 0)
 			(effects
 				(font
@@ -10436,7 +10436,7 @@
 				)
 			)
 		)
-		(property "MFGR" "generic"
+		(property "MFGR" "Samsung Electro-Mechanics"
 			(at 533.4 180.34 0)
 			(effects
 				(font
@@ -10445,7 +10445,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "CL05B104KA5NNNC"
+		(property "MPN" "CL10A105KP8NNNC"
 			(at 533.4 180.34 0)
 			(effects
 				(font
@@ -12448,6 +12448,97 @@
 	)
 (text "01  MCU / USB-C / 3.3V power / regulator / debugging" (at 45.72 33.02 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "bd009b00-6d75-4b13-8731-000000009001"))
 (text "Reference: jenschr/RP2354A, MIT. Review polarized L1 and USB data pair." (at 45.72 43.18 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "bd009b00-6d75-4b13-8731-000000009002"))
+(symbol
+		(lib_id "Device:C_Diagram2x")
+		((at 558.8 205.74 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a907c661-7e11-443c-ad62-002000000001")
+		(property "Reference" "C201"
+			((at 566.42 203.1998 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF 10V X5R"
+			((at 566.42 208.2798 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			((at 556.8696 198.12 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			((at 558.8 205.74 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			((at 558.8 205.74 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+			)
+		)
+		(property "MFGR" "Samsung Electro-Mechanics"
+			((at 558.8 205.74 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CL10A105KP8NNNC"
+			((at 558.8 205.74 0)
+			(effects
+				(font
+					(size 1.5 1.5)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a907c661-7e11-443c-ad62-002000000002")
+		)
+		(pin "2"
+			(uuid "a907c661-7e11-443c-ad62-002000000003")
+		)
+		(instances
+			(project "eTiWi-mini"
+				(path "/75796f0e-c7bb-4022-b2fb-227ab57b0aaa/bd009b00-6d75-4b13-8731-000000001101"
+					(reference "C201")
+					(unit 1)
+				)
+			)
+		)
+	)
+(wire (pts (xy 558.8 198.12) (xy 558.8 193.04)) (stroke (width 0) (type default)) (uuid "a907c661-7e11-443c-ad62-002000000012"))
+(wire (pts (xy 558.8 213.36) (xy 558.8 218.44)) (stroke (width 0) (type default)) (uuid "a907c661-7e11-443c-ad62-002000000013"))
+(global_label "VBUS" (shape passive) (at 558.8 193.04 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "a907c661-7e11-443c-ad62-002000000010"))
+(global_label "GND" (shape passive) (at 558.8 218.44 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "a907c661-7e11-443c-ad62-002000000011"))
 (sheet_instances (path "/75796f0e-c7bb-4022-b2fb-227ab57b0aaa/bd009b00-6d75-4b13-8731-000000001101" (page "2")))
 (embedded_fonts no)
 )

@@ -123,3 +123,5 @@ Stand: 2026-11-23
   Added FOOTPRINT_AUDIT.md into future CI artifact for tablet viewing.
   U3 pressure footprint, L1 inductor orientation and USB-C land/cutout
   remain assembly verification gates; no PCB created.
+
+- 2026-11-23 regulator audit: found AP2112K U4 VIN had zero local input bypass; C2 VOUT only 100nF. Changed C2 to 1uF X5R 10V 0603 and added C201 1uF VBUS/GND (JLC C26413). Future PCB must place both immediately by U4. Updated CI to ERC --exit-code-violations, pending actual post-commit validation.
