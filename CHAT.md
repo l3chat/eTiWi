@@ -76,3 +76,7 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Replaced inaccessible switch library references with standard KiCad KMR2.
 - Added a clearly tentative U3 pressure footprint and synchronized BOM.
 - STILL pending native KiCad ERC / board layout.
+
+- Corrected supply net to +3V3 after directly inspecting KiCad
+  embedded `power:+3.3V` symbol pin name; previous +3.3V relabel
+  was incorrect and has been superseded.

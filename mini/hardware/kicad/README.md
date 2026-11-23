@@ -23,3 +23,8 @@ Updated local `eTiWi.pretty/` now also includes the TYPE-C-31-M-14
 USB footprint (copied from jenschr's Unlicense footprint repo), and a
 **draft-only** LPS28DFW CCLGA-7L footprint. Switches use standard KiCad
 KMR2 footprints. All new sensor power nets use `+3.3V` consistently.
+
+Note: the inherited KiCad power symbol with library ID `power:+3.3V`
+has **pin net name `+3V3`**, so the sensor local labels intentionally
+use `+3V3`. Do not rename them to +3.3V without changing the
+underlying power symbol net definition.

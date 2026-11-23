@@ -76,3 +76,8 @@ Stand: 2026-11-23
   (Unlicense), standardized C&K KMR2 button footprints, and tentative ST
   LPS28DFW CCLGA-7L pad geometry. Pressure footprint must be reviewed
   against ST TN0018 before manufacturing. Still no ERC/PCB.
+
+- IMPORTANT CORRECTION: embedded `power:+3.3V` symbol has electrical
+  pin name `+3V3`, so the correct Mini sensor labels are `+3V3`.
+  A previous temporary relabeling to `+3.3V` was reverted after
+  reading the actual embedded symbol pin; see DESIGN_STATUS.md.

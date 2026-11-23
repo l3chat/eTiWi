@@ -89,3 +89,12 @@ BOM from schematic, then layout PCB and run DRC.
   (must check manufacturer guidance TN0018 and production line).
 - Updated schematic BOM. These changes reduce missing-file dependencies,
   but they **do not constitute an ERC pass**.
+
+## Verified supply net semantics (correction to previous wording)
+
+The inherited symbol is `power:+3.3V`, but its embedded power pin
+**electrical net name is +3V3** (while the symbol's displayed library value
+is +3.3V). Therefore the eight Mini supply labels must be **+3V3**, not
++3.3V. I verified the embedded `(name "+3V3")` from the actual
+KiCad library symbol and restored these eight labels to +3V3.
+This correction supersedes the earlier claim that +3V3 was an error.
