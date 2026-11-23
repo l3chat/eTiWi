@@ -189,3 +189,8 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 
 - New 1uF C201 did not appear in actual KiCad netlist even though the previous ERC returned zero. Diagnosed eight malformed nested `(at ...)` expressions introduced while duplicating the component.
 - Corrected eight `((at)` tokens, validated S-expression balance, added executable `ci/check_netlist.py`, and wired it into GitHub Actions after netlist export. If any required chip supply/pad/USB pin is missing, the workflow fails before ERC. Need latest CI check.
+
+## 2026-11-23: pre-layout plan and footprint CI
+
+- Wrote provisional `PCB_LAYOUT_CONSTRAINTS.md`: 160x32mm, four-layer test carrier with 8 covered touch pads, pressure-port and USB-C routing constraints; requires mechanical/ergonomic approval before routing.
+- Added `check_footprints.py` local KiCad library invariants: L1 dot on pad1, ST CCLGA 1..7 map, USB-C pad names and touch pad F.Cu-only under solder mask. CI publishes footprint-gate.txt; this is not board DRC.

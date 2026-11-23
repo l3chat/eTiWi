@@ -36,6 +36,7 @@ jobs:
           kicad-cli sch export pdf "$SCHEMATIC" -o mini-preview/eTiWi-mini-schematic.pdf
           kicad-cli sch export netlist "$SCHEMATIC" -o mini-preview/eTiWi-mini.net
           python3 mini/hardware/kicad/ci/check_netlist.py mini-preview/eTiWi-mini.net | tee mini-preview/netlist-gate.txt
+          python3 mini/hardware/kicad/ci/check_footprints.py | tee mini-preview/footprint-gate.txt
           set +e
           kicad-cli sch erc --exit-code-violations "$SCHEMATIC" -o mini-preview/eTiWi-mini-erc.txt
           ERC_CODE=$?

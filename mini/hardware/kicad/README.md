@@ -37,3 +37,14 @@ The uploaded `etiwi-mini-kicad-previews` archive also contains a copy
 of [FOOTPRINT_AUDIT.md](FOOTPRINT_AUDIT.md). The controller page is A2
 for readable wiring; the other three are A4. Schematic ERC is clean,
 but the board/assembly review is still pending.
+
+## Current pre-layout design documents
+
+- [PCB_LAYOUT_CONSTRAINTS.md](PCB_LAYOUT_CONSTRAINTS.md) — provisional
+  160 x 32 mm test-carrier geometry, 4-layer strategy, strict RP2354A
+  inductor placement and USB/pressure mechanical requirements.
+- [FOOTPRINT_AUDIT.md](FOOTPRINT_AUDIT.md) — manufacturer comparisons,
+  existing blockers and JLC part candidates.
+- `ci/check_netlist.py` and `ci/check_footprints.py` are run by the
+  PDF/ERC workflow and included as text gate results in CI artifacts.
+  They check CAD invariants, not real PCB DRC.

@@ -152,3 +152,14 @@ pass must be checked after this commit. See `FOOTPRINT_AUDIT.md`.
 ## 2026-11-23: Parser/netlist reliability fix
 
 A previous draft exported ERC 0/0 but omitted newly created C201 because its cloned KiCad S-expression had eight `((at ...)` errors. **Never equate ERC 0/0 with a complete schematic.** All eight were corrected, S-expression is balanced, and a new CI gate independently verifies that C201 and critical device pins actually exist on intended nets in the exported KiCad netlist. Successful post-commit CI validation is required.
+
+## 2026-11-23: mechanical/routing contract and CI footprint gate
+
+- Added `PCB_LAYOUT_CONSTRAINTS.md` with a **provisional** 160x32mm 4-layer
+  prototype design, touch pad locations, critical RP2354A inductor
+  orientation and requirements for USB/pressure port.
+- Added separate `ci/check_footprints.py` invariant check and
+  `footprint-gate.txt` to GitHub Actions artifact; this detects
+  accidental pad-number/mask/polarity changes in custom footprints.
+- Still NO routed PCB or PCB DRC. Real manufacturer land pattern/rotation
+  and case/ergonomics must be reviewed at layout.
