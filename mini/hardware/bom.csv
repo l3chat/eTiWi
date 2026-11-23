@@ -1,25 +1,54 @@
-Block,Designators,Qty,Manufacturer,MPN,Description,JLCPCB_LCSC,Status,Notes
-MCU,U1,1,Raspberry Pi,RP2354A,QFN60 MCU with 2MB in-package flash,C41378174,Catalog candidate,Verify in-stock and assembly type at order time
-Touch,U2,1,NXP,MPR121QR2,12-channel capacitive sensor QFN20,C91322,Catalog candidate,Electrodes ELE0..ELE7 use PCB copper pads
-Pressure,U3,1,STMicroelectronics,LPS28DFWTR,Digital water-resistant I2C pressure sensor,C3263277,Catalog candidate,Stock and placement orientation require recheck
-Power,U4,1,MICRONE,ME6211C33M5G-N,3V3 LDO SOT23-5,C82942,Catalog candidate,Verify pinout output caps thermal and USB loading
-USB,J1,1,TBD,TBD,USB-C receptacle USB2 device,TBD,To select,Must expose CC1 CC2 VBUS D+ D- GND
-USB,RCC1 RCC2,2,TBD,5.1k ohm,USB-C Rd to GND,TBD,Value specified,Use independent CC1 and CC2 resistors
-USB,U_ESD,1,TBD,TBD,USB D+ D- ESD protection,TBD,To select,Verify device capacitance voltage and footprint
-Clock,Y1,1,Abracon-or-reference,TBD,12 MHz recommended crystal,TBD,To select,Follow Raspberry Pi reference BOM/load caps
-MCU power,L_CORE,1,Abracon-reference,TBD,Specified polarized regulator inductor,TBD,To select,DO NOT substitute generic inductor before reference design check
-MCU power,C_CORE,Various,TBD,TBD,Core regulator and supply decoupling capacitors,TBD,To select,Exact values/count/placement per RP2350 hardware design
-Power,C_LDO,2,TBD,TBD,LDO input and output capacitors,TBD,To select,Value and ESR per selected LDO datasheet
-I2C,RPU1 RPU2,2,TBD,4.7k ohm,3V3 pull-ups for I2C0,TBD,Preliminary value,Check combined pullups and bus capacitance
-Touch,TP_E0..TP_E7,8,PCB,Cu electrodes,Eight plated/capped sensing pads,NA,PCB geometry,No purchased parts; keepout and size to be designed
-Touch,C_TOUCH,Various,TBD,TBD,MPR121 supply/filter caps and address/IRQ strapping,TBD,To select,Per NXP reference design
-Pressure,C_PRESS,Various,TBD,TBD,Sensor decoupling and I2C strapping,TBD,To select,Per ST reference
-Debug,SWD pads,1,PCB,Test pads,SWDIO SWCLK GND 3V3,TBD,PCB geometry,Include accessible debug and reset
-Controls,SW_BOOT SW_RESET,2,TBD,TBD,Boot selection and reset access,TBD,To select,Validate RP2354A flash boot behavior
-Indicator,LED1 R_LED,2,TBD,TBD,Status LED and series resistor,TBD,To select,Optional
-Audio expansion,J_AUDIO,1,TBD,2x6 2.54mm TH pads,Unpopulated plated through-hole connector field,PCB,Footprint only,Silkscreen every pin; optional header hand-soldered
-Audio filter,R_A1 R_A2,2,TBD,1k 1pct 0603,Provisional two-pole passive LPF,TBD,Preliminary values,Factory assembled; analyze actual response incl amplifier input loading
-Audio filter,C_A1 C_A2,2,TBD,10nF X7R 0603,Two filter shunt capacitors,TBD,Preliminary values,Factory assembled; values subject to measurement
-Audio filter,C_A3,1,TBD,1uF X7R 0603/0805,Analog output AC coupling,TBD,Preliminary value,Factory assembled; check low frequency cutoff and module input bias
-Audio filter,R_A3,1,TBD,100k 0603,Analog output discharge/bias-to-ground resistor,TBD,Preliminary value,Factory assembled
-Audio control,R_AEN,1,TBD,1k 0603,Series protection for external amplifier enable,TBD,Preliminary value,Check control polarity and module enable input
+Designator,Value,Footprint,Manufacturer,Manufacturer_Part_Number,LCSC_Candidate,Assembly_Status,Notes
+C2,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C5,10pF,Capacitor_SMD:C_0603_1608Metric,Samsung,CL10C100JB8NFNC,,Needs manufacturer footprint and JLC availability review,
+C6,10pF,Capacitor_SMD:C_0603_1608Metric,Samsung,CL10C100JB8NFNC,,Needs manufacturer footprint and JLC availability review,
+C24,4.7μF,Capacitor_SMD:C_0402_1005Metric,Murata,GRM155D80E475ME47J,,Needs manufacturer footprint and JLC availability review,
+C25,4.7μF,Capacitor_SMD:C_0402_1005Metric,Murata,GRM155D80E475ME47J,,Needs manufacturer footprint and JLC availability review,
+C26,4.7μF,Capacitor_SMD:C_0402_1005Metric,Murata,GRM155D80E475ME47J,,Needs manufacturer footprint and JLC availability review,
+C27,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C28,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C29,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C34,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C35,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C36,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C37,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C38,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C39,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C40,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C41,0.1uF,Capacitor_SMD:C_0402_1005Metric,generic,CL05B104KA5NNNC,,Needs manufacturer footprint and JLC availability review,
+C101,100nF,Capacitor_SMD:C_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+C102,100nF,Capacitor_SMD:C_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+C103,100nF,Capacitor_SMD:C_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+C110,10nF,Capacitor_SMD:C_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+C111,10nF,Capacitor_SMD:C_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+C112,1uF,Capacitor_SMD:C_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+D1,APA102-2020,LED_SMD:LED-APA102-2020,Adafruit (10-pack!),3341,,Needs manufacturer footprint and JLC availability review,
+J1,USB_C_Receptacle_USB2.0_14P,USB-C-Power-tester:TYPE-C-31-M-14,,TYPE-C-31-M-14,,BLOCKED: PRIVATE FOOTPRINT,USB-C connector footprint from author's private library; must replace
+J2,SWD,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,,,,Needs manufacturer footprint and JLC availability review,
+J3,Con,Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical,,,,Needs manufacturer footprint and JLC availability review,
+J4,Con,Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical,,,,Needs manufacturer footprint and JLC availability review,
+J5,AUDIO MODULE,Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical,,,,DNP / Header optional,
+L1,L,Resistor_SMD:R_0805_2012Metric,Abracon,AOTA-B201610S3R3-101-T,,BLOCKED: INDUCTOR FOOTPRINT UNVERIFIED,Polarized Abracon AOTA-B201610S3R3-101-T; source uses resistor 0805 footprint—DO NOT ORDER
+R23,33Ω,Resistor_SMD:R_0402_1005Metric,Yageo,RC0402FR-0733RL,,Needs manufacturer footprint and JLC availability review,
+R29,1k,Resistor_SMD:R_0603_1608Metric,YAGEO,RT0603FRE101KL,,Needs manufacturer footprint and JLC availability review,
+R49,1k,Resistor_SMD:R_0603_1608Metric,YAGEO,RT0603FRE101KL,,Needs manufacturer footprint and JLC availability review,
+R50,33Ω,Resistor_SMD:R_0402_1005Metric,Yageo,RC0402FR-0733RL,,Needs manufacturer footprint and JLC availability review,
+R51,33Ω,Resistor_SMD:R_0402_1005Metric,Yageo,RC0402FR-0733RL,,Needs manufacturer footprint and JLC availability review,
+R52,5.1k,Resistor_SMD:R_0402_1005Metric,Yageo,RC0402FR-075K1L,,Needs manufacturer footprint and JLC availability review,
+R53,5.1k,Resistor_SMD:R_0402_1005Metric,Yageo,RC0402FR-075K1L,,Needs manufacturer footprint and JLC availability review,
+R54,1k,Resistor_SMD:R_0603_1608Metric,YAGEO,RT0603FRE101KL,,Needs manufacturer footprint and JLC availability review,
+R101,75k 1%,Resistor_SMD:R_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+R102,10k,Resistor_SMD:R_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+R103,4.7k,Resistor_SMD:R_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+R104,4.7k,Resistor_SMD:R_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+R110,1k,Resistor_SMD:R_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+R111,1k,Resistor_SMD:R_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+R112,100k,Resistor_SMD:R_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+R113,1k,Resistor_SMD:R_0603_1608Metric,,,,Needs manufacturer footprint and JLC availability review,
+RESET1,SW_Push,USB-C-Power-tester:SW_Push_1P1T_NO_CK_KMR2,C&K,KMR241G LFS,,BLOCKED: PRIVATE FOOTPRINT,
+U1,RP2354A,Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm,Raspberry Pi,SC1511(13)-A4,C41378174,Needs manufacturer footprint and JLC availability review,RP2354A internal 2MB flash
+U2,MPR121QR2,Package_DFN_QFN:UQFN-20_3x3mm_P0.4mm,,,C91322,Needs manufacturer footprint and JLC availability review,Check NXP COL 20-pin land pattern
+U3,LPS28DFWTR,,,,C3263277,BLOCKED: NO FOOTPRINT,Assign ST verified CCLGA-7L footprint
+U4,AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5,Diodes Incorporated,AP2112K-3.3TRG1,,Needs manufacturer footprint and JLC availability review,
+USBDEV1,SW_Push,USB-C-Power-tester:SW_Push_1P1T_NO_CK_KMR2,C&K,KMR241G LFS,,BLOCKED: PRIVATE FOOTPRINT,
+Y1,Crystal,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,Abracon,ABM8-272-T3,,Needs manufacturer footprint and JLC availability review,

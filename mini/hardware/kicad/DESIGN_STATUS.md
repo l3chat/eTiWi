@@ -36,3 +36,25 @@ kicad-cli sch export netlist mini/hardware/kicad/eTiWi-mini.kicad_sch -o mini.ne
 ```
 Review manually in KiCad, correct ERC, assign actual footprints, generate
 BOM from schematic, then layout PCB and run DRC.
+
+## Additional post-commit audit
+
+- Electrical label/wire check: 96 labels, 255 wires; all labels for
+  I2C_SDA, I2C_SCL, TOUCH_IRQ, PRESS_INT, AUDIO_PWM_RAW, AMP_EN,
+  I2S_BCLK, I2S_LRCLK, I2S_DOUT, AUDIO_OUT, MPR_VREG and MPR_REXT
+  were found attached to actual schematic wires. This is **not ERC**.
+- Newly generated BOM `../bom.csv` now tracks the **53 assembly-capable
+  components from the actual schematic**, including DNP header J5.
+  Touch electrodes TP1..TP8 are PCB copper and excluded from assembly BOM.
+- Important inherited reference footprint blockers:
+  - `J1` USB-C uses `USB-C-Power-tester:TYPE-C-31-M-14` —
+    external private footprint library is not included here.
+  - `USBDEV1` switch also uses an external private footprint library.
+  - `L1` polarized Abracon 3.3uH inductor is temporarily assigned an
+    ordinary resistor-0805 footprint in the source reference; **must
+    verify and replace**, and enforce inductor polarity/orientation.
+  - `U3` LPS28DFW still has no verified CCLGA-7L footprint assigned.
+  - Any other reference-board MPN and footprint must still be checked.
+- **Do not send the supplied schematic/BOM directly to JLCPCB.** A
+  manufacturer-qualified footprint selection, proper local library,
+  ERC, and human review remain required.

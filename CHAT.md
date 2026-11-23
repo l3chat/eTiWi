@@ -57,3 +57,10 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Lexical s-expression and unique UUID checks only.
 - Next: open KiCad, inspect every net/pin, correct any ERC failures,
   fix pressure sensor footprint, adjust full BOM then PCB layout.
+
+## Post-commit BOM audit (2026-11-23)
+
+- Generated current Mini BOM directly from KiCad component references.
+- Connectivity label-to-wire audit passed for sensor/I2C/audio labels.
+- Highlighted blocking incomplete/incorrect footprints: J1, USBDEV1,
+  L1 polarised Abracon inductor, U3 LPS28DFW. KiCad ERC still NOT RUN.

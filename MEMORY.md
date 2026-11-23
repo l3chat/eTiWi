@@ -57,3 +57,11 @@ Stand: 2026-11-23
 - Included custom solder-mask-covered electrode footprint.
 - **KiCad ERC NOT RUN, U3 footprint not assigned, no PCB**.
   Manual electrical review and BOM recalc required before manufacturing.
+
+- Post-schematic footprint audit (2026-11-23): J1 and USBDEV1 in
+  base reference use unavailable private footprint library; L1 Abracon
+  polarized inductor currently has resistor-0805 footprint (unsafe);
+  U3 pressure sensor has no verified footprint. Block JLCPCB ordering
+  until these are resolved.
+- Rebuilt `mini/hardware/bom.csv` from actual schematic references
+  (53 components incl J5 DNP) rather than earlier conceptual BOM.

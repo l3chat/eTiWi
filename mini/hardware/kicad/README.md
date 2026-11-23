@@ -11,3 +11,6 @@ Original license: `LICENSE_reference_RP2354A.txt`.
 **No ERC/DRC, manufacture-ready BOM, PCB, Gerbers or verified pressure
 sensor footprint yet.** The schematic must be opened, visually audited,
 assigned the exact chosen footprints and passed through ERC before layout.
+
+The automatically generated [BOM](../bom.csv) is a *draft matching the schematic*,
+not a JLCPCB order file; see the unresolved footprint blockers in DESIGN_STATUS.md.
