@@ -118,3 +118,24 @@ See [FOOTPRINT_AUDIT.md](FOOTPRINT_AUDIT.md). U3 LPS28DFW local footprint copper
   all **77 net name/member groups** and **255 pins** match.
 - Run KiCad export/ERC again after QSPI glyph change. Font only; no
   electrical net or footprint changed by this last visual refinement.
+
+## Final verification of the current PDF revision (2026-11-23)
+
+- Latest checked GitHub Actions run:
+  https://github.com/l3chat/eTiWi/actions/runs/45173445728
+- Native KiCad 9.0.9 PDF inspected visually: controller on A2 to provide
+  more symbol clearance; overview/sensors/audio on A4. C39 annotation
+  returned to its actual symbol location; redundant FINGER labels hidden
+  on touch pad symbols; QSPI text spacing refined.
+- **KiCad ERC: 0 errors / 0 warnings** (rechecked after embedded
+  symbol-library definitions were restored).
+- Exact netlist comparison to the known-good V0.2 export:
+  **77 identical net names and pin memberships, 255 pin connections**.
+- This result supersedes the intermediate 60 warning report (which
+  reflected a temporary mismatch of schematic-embedded library glyph
+  text before the rollback); no such warnings remain.
+- Physical footprint audit is in `FOOTPRINT_AUDIT.md`; the CI artifact
+  now also includes a copy of that report for tablet access.
+- No PCB has yet been created; U3 orientation/paste, USB-C mechanical
+  cutout, RP2354A polarized switching inductor and supplier BOM must
+  be approved at PCB design / assembly review.

@@ -168,3 +168,13 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Added confirmed catalog candidate IDs for USB-C HRO TYPE-C-31-M-14 and Abracon 3.3uH inductor; production qualification still pending.
 
 - MCU A2 schematic symbol text: set pin name inset 5.08mm to avoid the last border contact at ~QSPI_SS; footprint and pin coordinates remain unchanged; verify PDF/ERC.
+
+## Final PDF / footprint audit verification (2026-11-23)
+
+- Downloaded native KiCad output of GitHub Actions run 45173445728.
+- ERC 0 errors, 0 warnings after reverting unintended embedded-library
+  font changes. Four-page mixed A4/A2 PDF re-rendered and visually checked.
+- Netlist: old vs current equal across all 77 net names and 255 pin
+  memberships. No electrical changes due to cosmetic cleanup.
+- Added manufacturer FOOTPRINT_AUDIT.md to future workflow artifacts.
+- PCB layout/DRC still intentionally not begun pending mechanical validation.

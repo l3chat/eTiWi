@@ -28,3 +28,12 @@ its license copy is included too.
 
 **Important:** ERC success is not proof that footprints, power or
 manufacturing details are correct. No PCB or DRC exists yet.
+
+## Current portable reports
+
+The most recent reviewed schematic KiCad PDF and ERC are generated in
+[GitHub Actions](https://github.com/l3chat/eTiWi/actions/workflows/mini-kicad-preview.yml).
+The uploaded `etiwi-mini-kicad-previews` archive also contains a copy
+of [FOOTPRINT_AUDIT.md](FOOTPRINT_AUDIT.md). The controller page is A2
+for readable wiring; the other three are A4. Schematic ERC is clean,
+but the board/assembly review is still pending.

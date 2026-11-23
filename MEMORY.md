@@ -116,3 +116,10 @@ Stand: 2026-11-23
 - Latest layout 2026-11-23: KiCad diagram-only 2x pin spacing on A2 controller made text legible, ERC 0 errors/warnings. 77 nets and 255 pin connections identical to prior pre-layout export. Final QSPI_SS label font reduced to prevent border contact; final workflow recheck pending. JLC candidates: HRO M14 C223907, Abracon inductor C42411119.
 
 - Final schematic typography: added pin_names offset 5.08 mm on MCU _Diagram2x only; expected to move long labels (notably QSPI_SS) inside boundary, PCB footprints/nets unchanged. Pending KiCad export QA.
+
+- Final 2026-11-23: verified GitHub Actions KiCad PDF ERC **0/0** at run
+  45173445728, 77 named nets/255 exact member-pin pairs match V0.2
+  baseline. Controller A2, 3 other A4 pages; visually reviewed.
+  Added FOOTPRINT_AUDIT.md into future CI artifact for tablet viewing.
+  U3 pressure footprint, L1 inductor orientation and USB-C land/cutout
+  remain assembly verification gates; no PCB created.

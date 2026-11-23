@@ -26,6 +26,7 @@ jobs:
         run: |
           set -u
           mkdir -p mini-preview
+          cp mini/hardware/kicad/FOOTPRINT_AUDIT.md mini-preview/FOOTPRINT_AUDIT.md
           kicad-cli version | tee mini-preview/kicad-version.txt
           SCHEMATIC=mini/hardware/kicad/eTiWi-mini.kicad_sch
           cp "$SCHEMATIC" mini-preview/eTiWi-mini-source.kicad_sch
