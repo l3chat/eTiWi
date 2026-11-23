@@ -5,7 +5,7 @@ The workflow run was successful: https://github.com/l3chat/eTiWi/actions/runs/45
 
 ## Verified now
 
-- Four native A4 schematic pages in an editable KiCad 9 project:
+- Four native schematic pages in an editable KiCad 9 project (A2 controller, three A4):
   `eTiWi-mini.kicad_sch` overview, `01_controller_usb_power.kicad_sch`,
   `02_touch_pressure.kicad_sch`, and `03_audio_expansion.kicad_sch`.
 - KiCad schematic PDF and netlist exported successfully by GitHub Actions.
@@ -50,7 +50,7 @@ Open [GitHub Actions — eTiWi Mini KiCad PDF and ERC](https://github.com/l3chat
 Select a successful run, download **Artifacts → etiwi-mini-kicad-previews**.
 
 The archive contains:
-- `eTiWi-mini-schematic.pdf`: 4-page native A4 schematic
+- `eTiWi-mini-schematic.pdf`: 4-page native KiCad PDF (A2 core, three A4 pages)
 - `eTiWi-mini-erc.txt`: KiCad ERC result
 - `erc-summary.txt`: ERC process exit code
 - `eTiWi-mini.net`: KiCad electrical netlist
@@ -103,3 +103,18 @@ See [FOOTPRINT_AUDIT.md](FOOTPRINT_AUDIT.md). U3 LPS28DFW local footprint copper
   are unrelated to footprint copper and are not an approved final status.
 - Reinstated the authoritative embedded symbol definitions from the previous
   A2 schematic, keeping only instance annotations. Recheck ERC before release.
+
+## Final PDF geometry / netlist recheck, 2026-11-23
+
+- Core A2 diagram uses schematic-only 2x-spaced pin graphics; all
+  package footprints remain physically unchanged.
+- The latest saved PDF before this small font refinement had **no measured
+  text-to-text collisions** on core/sensor/audio pages aside from a
+  negligible built-in KiCad title block `Rev:/Id:` extraction artifact.
+  One long QSPI_SS pin-name glyph crossed a device outline by a few pixels;
+  its font was reduced from 1.27mm to 0.85mm.
+- KiCad ERC check after the 2x transformation: **0 errors and 0 warnings**.
+- Compared GitHub Actions exported netlist against pre-refactor netlist:
+  all **77 net name/member groups** and **255 pins** match.
+- Run KiCad export/ERC again after QSPI glyph change. Font only; no
+  electrical net or footprint changed by this last visual refinement.

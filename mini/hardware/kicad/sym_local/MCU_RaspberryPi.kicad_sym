@@ -1482,7 +1482,7 @@
 					(name "~{QSPI_SS}"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.85 0.85)
 							)
 						)
 					)

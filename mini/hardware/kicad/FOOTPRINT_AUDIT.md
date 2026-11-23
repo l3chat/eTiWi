@@ -76,3 +76,14 @@ grounds it.
 
 A clean KiCad schematic ERC is necessary but **not sufficient** for any
 of these. No `*.kicad_pcb`, DRC, Gerbers or CPL currently exists.
+
+## Additional part-catalog evidence
+
+- HRO `TYPE-C-31-M-14`: JLCPCB/LCSC **C223907**; listing calls it
+  16-pin USB Type-C, 1 A rated. A listing is not a verified solder
+  footprint, and inventory/PCBA support must be checked at order time:
+  https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M14/C223907
+- Abracon `AOTA-B201610S3R3-101-T`: JLCPCB/LCSC **C42411119**:
+  https://jlcpcb.com/partdetail/AbraconLLC-AOTA_B201610S3R3_101T/C42411119
+- The manufacturing footprints remain subject to pad, assembly rotation
+  and available stock confirmation; candidates in BOM are **not** approval.

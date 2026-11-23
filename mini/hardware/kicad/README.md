@@ -1,6 +1,6 @@
 # eTiWi Mini V0.2 — KiCad 9 schematic
 
-**Actual editable four-sheet schematic; ERC 0 errors and 0 warnings.**
+**Editable four-sheet schematic (A2 core + three A4), ERC 0 errors and 0 warnings.**
 See [DESIGN_STATUS.md](DESIGN_STATUS.md) for current verified status,
 non-validated physical details, and the most recent PDF/ERC workflow.
 

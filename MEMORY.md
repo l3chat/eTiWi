@@ -112,3 +112,5 @@ Stand: 2026-11-23
 - 2026-11-23 PDF cosmetic fix after concurrent A2 controller refactor: moved C39 ref/value fields to scaled sheet coordinates, increased controller text 1.27→1.50 mm and hid redundant FINGER# labels on electrodes. Electrical connections unchanged. Await KiCad PDF/ERC verification.
 
 - 2026-11-23 ERC recovery: controller text enlargement changed embedded library symbols and caused 60 lib_symbol_mismatch warnings. Restored original embedded `lib_symbols` block from prior A2 commit while preserving instance field positions/font updates. ERC must be rechecked.
+
+- Latest layout 2026-11-23: KiCad diagram-only 2x pin spacing on A2 controller made text legible, ERC 0 errors/warnings. 77 nets and 255 pin connections identical to prior pre-layout export. Final QSPI_SS label font reduced to prevent border contact; final workflow recheck pending. JLC candidates: HRO M14 C223907, Abracon inductor C42411119.

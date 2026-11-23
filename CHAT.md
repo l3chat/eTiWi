@@ -159,3 +159,10 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Preview visually clearer, but ERC reported 60 library definition mismatches after changing font sizes globally.
 - Restored embedded library block from previous known clean A2 schematic, retaining only human-visible instance annotation changes and corrected C39 coordinates.
 - Await GitHub Actions ERC and PDF to verify warning count returns to zero.
+
+## 2026-11-23: final PDF and footprint checks
+
+- Native KiCad 9 ERC after schematic geometry 2x: zero errors/warnings.
+- Compared KiCad netlist with original: 77 nets / 255 pins same names and memberships.
+- Reduced QSPI_SS pin label font only where it touched symbol border.
+- Added confirmed catalog candidate IDs for USB-C HRO TYPE-C-31-M-14 and Abracon 3.3uH inductor; production qualification still pending.

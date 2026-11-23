@@ -25,7 +25,7 @@ remain part of the broader eTiWi vision; see `../hardware/`.
 ## Status
 
 Architecture, pin plan, preliminary BOM and verification plan are documented.
-**KiCad V0.2 includes an editable four-sheet schematic. ERC passed with 0 errors and 0 warnings in GitHub Actions (2026-11-23). PCB layout and firmware remain pending.**
+**KiCad V0.3 includes an editable four-sheet schematic (A2 controller + three A4 sheets). ERC passed with 0 errors and 0 warnings in GitHub Actions (2026-11-23). PCB layout and firmware remain pending.**
 This documentation is not manufacturing-ready.
 
 ## Files
