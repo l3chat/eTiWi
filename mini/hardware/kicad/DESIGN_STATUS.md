@@ -71,3 +71,21 @@ BOM from schematic, then layout PCB and run DRC.
   Raspberry Pi RP2350 guide (especially its Figure 4) before routing.
 - Previously identified J1, RESET1 and USBDEV1 private-library footprints,
   and U3 CCLGA pressure footprint, remain unresolved.
+
+## 2026-11-23: Footprints and power-net correction
+
+- Fixed **eight mislabeled +3V3 local nets** to **+3.3V** (the
+  inherited RP2354A power-symbol net). This was an actual design bug:
+  previous sensors and pull-ups were NOT connected to the 3.3V source.
+- Added a project-local **TYPE-C-31-M-14** USB footprint copied from
+  jenschr/USB-C-Connectors (Unlicense). Mapped footprint mounting pads
+  to the symbol's S1 shield. Extra A8/B8 SBU pads intentionally remain
+  unused. Connector final geometry and orientation still need PCB review.
+- Replaced both switch footprints RESET1 and USBDEV1 with matching standard
+  KiCad `Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2`.
+- Assigned a **provisional** project-local `LPS28DFW_CCLGA-7L_2.8x2.8mm_DRAFT`
+  footprint with six pads and central pad 7. Pin arrangement follows
+  the ST datasheet bottom-view mirror; land widths are tentative
+  (must check manufacturer guidance TN0018 and production line).
+- Updated schematic BOM. These changes reduce missing-file dependencies,
+  but they **do not constitute an ERC pass**.

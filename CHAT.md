@@ -67,3 +67,12 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 
 - Added custom provisional L1 Abracon footprint from datasheet pad dimensions;
   corrected schematic, BOM, and schematic status accordingly.
+
+## 2026-11-23: footprint / supply net corrections
+
+- Corrected eight +3V3 net aliases to +3.3V so sensors receive power.
+- Copied HRO TYPE-C-31-M-14 footprint from the original author's
+  Unlicense repository with shield-pad renumbering for KiCad J1 symbol.
+- Replaced inaccessible switch library references with standard KiCad KMR2.
+- Added a clearly tentative U3 pressure footprint and synchronized BOM.
+- STILL pending native KiCad ERC / board layout.

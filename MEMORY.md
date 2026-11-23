@@ -69,3 +69,10 @@ Stand: 2026-11-23
 - Added a provisional manufacturer-land-pattern footprint for L1 Abracon
   polarized 3.3uH inductor, with dot marking pin1; requires RP2350 SMPS
   layout orientation review (not yet ERC or PCB reviewed).
+
+- Fixed a serious Mini schematic power connection naming mistake:
+  sensor/pull-up labels +3V3 changed to reference rail +3.3V.
+- Added USB-C local TYPE-C-31-M-14 footprint from jenschr/USB-C-Connectors
+  (Unlicense), standardized C&K KMR2 button footprints, and tentative ST
+  LPS28DFW CCLGA-7L pad geometry. Pressure footprint must be reviewed
+  against ST TN0018 before manufacturing. Still no ERC/PCB.
