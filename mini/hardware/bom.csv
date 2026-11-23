@@ -1,0 +1,21 @@
+Block,Designators,Qty,Manufacturer,MPN,Description,JLCPCB_LCSC,Status,Notes
+MCU,U1,1,Raspberry Pi,RP2354A,QFN60 MCU with 2MB in-package flash,C41378174,Catalog candidate,Verify in-stock and assembly type at order time
+Touch,U2,1,NXP,MPR121QR2,12-channel capacitive sensor QFN20,C91322,Catalog candidate,Electrodes ELE0..ELE7 use PCB copper pads
+Pressure,U3,1,STMicroelectronics,LPS28DFWTR,Digital water-resistant I2C pressure sensor,C3263277,Catalog candidate,Stock and placement orientation require recheck
+Power,U4,1,MICRONE,ME6211C33M5G-N,3V3 LDO SOT23-5,C82942,Catalog candidate,Verify pinout output caps thermal and USB loading
+USB,J1,1,TBD,TBD,USB-C receptacle USB2 device,TBD,To select,Must expose CC1 CC2 VBUS D+ D- GND
+USB,RCC1 RCC2,2,TBD,5.1k ohm,USB-C Rd to GND,TBD,Value specified,Use independent CC1 and CC2 resistors
+USB,U_ESD,1,TBD,TBD,USB D+ D- ESD protection,TBD,To select,Verify device capacitance voltage and footprint
+Clock,Y1,1,Abracon-or-reference,TBD,12 MHz recommended crystal,TBD,To select,Follow Raspberry Pi reference BOM/load caps
+MCU power,L_CORE,1,Abracon-reference,TBD,Specified polarized regulator inductor,TBD,To select,DO NOT substitute generic inductor before reference design check
+MCU power,C_CORE,Various,TBD,TBD,Core regulator and supply decoupling capacitors,TBD,To select,Exact values/count/placement per RP2350 hardware design
+Power,C_LDO,2,TBD,TBD,LDO input and output capacitors,TBD,To select,Value and ESR per selected LDO datasheet
+I2C,RPU1 RPU2,2,TBD,4.7k ohm,3V3 pull-ups for I2C0,TBD,Preliminary value,Check combined pullups and bus capacitance
+Touch,TP_E0..TP_E7,8,PCB,Cu electrodes,Eight plated/capped sensing pads,NA,PCB geometry,No purchased parts; keepout and size to be designed
+Touch,C_TOUCH,Various,TBD,TBD,MPR121 supply/filter caps and address/IRQ strapping,TBD,To select,Per NXP reference design
+Pressure,C_PRESS,Various,TBD,TBD,Sensor decoupling and I2C strapping,TBD,To select,Per ST reference
+Debug,SWD pads,1,PCB,Test pads,SWDIO SWCLK GND 3V3,TBD,PCB geometry,Include accessible debug and reset
+Controls,SW_BOOT SW_RESET,2,TBD,TBD,Boot selection and reset access,TBD,To select,Validate RP2354A flash boot behavior
+Indicator,LED1 R_LED,2,TBD,TBD,Status LED and series resistor,TBD,To select,Optional
+Optional audio,U5,1,Diodes Inc.,PAM8302AADCR,5V class-D analog mono amplifier,C112137,Optional NOT POPULATED,Requires PWM/PDM filter amplifier input design and USB current check
+Optional audio,J_SPK,1,TBD,TBD,Speaker connector for rated 8-ohm speaker,TBD,Optional NOT POPULATED,DO NOT drive directly from GPIO

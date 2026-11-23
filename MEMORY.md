@@ -1,45 +1,42 @@
 # MEMORY
 
-Stand: 2026-03-03
+Stand: 2026-11-23
 
-## Stable Decisions
+## Stable Project Intent
 
-- Device concept: electronic tin whistle with onboard VS1053B GM synthesis.
-- MIDI generation is driven by breath + fingering in real time.
-- V1 supports MIDI play-along by mixing live performance with backing-track
-  MIDI in the same synth path.
-- USB-MIDI out remains an optional external output mode.
-- Session workflow rule: before every commit, refresh `MEMORY.md` and
-  `CHAT.md` to match staged changes.
+- eTiWi is a breath- and fingering-controlled electronic MIDI instrument.
+- Original longer-term vision: onboard VS1053B synth, MIDI play-along,
+  headphones/line-out/speaker and NiMH battery power.
+- The original `hardware/` and `docs/` contain earlier design proposals;
+  they should not be mistaken for finalized Mini circuit specifications.
 
-## V1 Hardware Decisions
+## Active Prototype: eTiWi Mini V0.1
 
-- Battery: 2x NiMH.
-- V1 has no on-board NiMH charging.
-- Power rails: SYS_5V + low-noise SYS_3V3.
-- VS1053B is on the same PCB as MCU.
-- VS1053B clocking: MCU MCLK output to XTALI, no dedicated VS1053B
-  quartz/crystal in V1.
-- Non-volatile settings/presets storage: FRAM, not EEPROM.
-- Audio path priority: headphones primary, line-out available, on-board
-  speaker through dedicated amp.
-- Speaker auto-mute is driven by a jack switch.
-- V1 controls: power switch, rotary encoder with push, play/stop button,
-  back/function button.
+- Purpose: verify the playing interface and USB-MIDI before building the
+  full autonomous instrument.
+- RP2354A MCU with 2 MB in-package flash.
+- 8 PCB copper capacitive electrodes via MPR121QR2 over I2C.
+- LPS28DFWTR water-resistant digital pressure sensor on shared I2C.
+- USB-C supplies 5 V and carries class-compliant USB-MIDI to host device.
+- 3V3 supply for MCU/sensors; RP2354A own internal core regulator must be
+  wired per official current Raspberry Pi reference (polarized inductor).
+- External host synthesizer is the **first bring-up audio source**.
+- Reserve PWM/PDM data and amplifier enable GPIO for **optional later**
+  software synthesis through a properly filtered external audio amplifier.
+- No NiMH, VS1053B, OLED or battery charger in Mini V0.1.
+- No KiCad schematic, fabricated PCB or working firmware exists yet.
+- Preliminary GPIO mapping and provisional JLCPCB catalog BOM in `mini/`.
 
-## Architecture Snapshot
+## Remaining Design Decisions and Verification
 
-- Inputs: 6-8 analog IR sensors + digital pressure sensor candidate family
-  (LPS28DFWTR / LPS25HBTR / LPS22HHTR).
-- Processing intent: threshold/hysteresis/debounce + fingering tables + presets.
-- Outputs: MIDI stream to VS1053B, optional USB-MIDI out.
-- MCU/storage direction under evaluation: RP2350B + large external flash.
+- RP2354A specific clock/inductor/decoupling reference implementation.
+- USB-C receptacle, ESD, complete passives, LDO and layout.
+- Sensor port/mechanical moisture protection and pad geometry/latency.
+- Optional audio amplifier/filter/USB current budget.
+- Manufacturer footprints, assembly availability and electrical ERC/DRC.
 
-## Open Hardware Choices (V1)
+## Codex Continuity
 
-- Speaker amp class and pot/no-pot decision.
-- Boost converter peak-current target and part category.
-- USB-C sink CC resistors and ESD placement.
-- I2C bus/address plan for OLED + pressure sensor.
-- RP2350B I/O fit and external flash size/interface finalization.
-- Ground split and single-point tie placement.
+- Read `AGENTS.md`, `MEMORY.md` and `CHAT.md` at session start.
+- **Refresh MEMORY.md and CHAT.md before every commit.**
+- Do not copy WARBL GPL code or pretend a proposed KiCad file is validated.

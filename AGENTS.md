@@ -1,36 +1,48 @@
 # AGENTS
 
-Stand: 2026-03-03
+Stand: 2026-11-23
 
 ## Project Scope
 
-This repository covers the eTiWi electronic tin whistle:
-- VS1053B-based General MIDI playback
-- breath + fingering to real-time MIDI conversion
-- play-along support with MIDI backing tracks
-
-Current phase is architecture and documentation work for hardware/firmware
-planning, not firmware implementation.
+This repository covers eTiWi, a breath-controlled MIDI instrument:
+- Long-term: VS1053B-based General MIDI playback, play-along and battery power.
+- **Immediate active prototype: [eTiWi Mini](mini/README.md)** — RP2354A,
+  MPR121 (8 capacitive touch electrodes), LPS28DFW breath sensing,
+  USB-C bus-powered USB-MIDI, with optional future PWM/PDM audio.
+- The older `hardware/` and `docs/` specifications describe the earlier
+  full-instrument direction; **do not silently overwrite them** with Mini
+  choices. Use the `mini/` subtree for Mini-specific changes.
 
 ## Working Rules
 
-- Keep documentation technically accurate and concise.
+- Keep documentation technically accurate and concise. Explicitly label
+  proposed GPIO maps, BOM candidates and unvalidated audio circuitry.
+- Prefer official device datasheets and Raspberry Pi's latest RP2350
+  hardware design/reference BOM for the RP2354A power and clock network.
 - Do not copy WARBL code; use clean-room ideas only.
-- Prefer small, reviewable doc commits.
-- Do not introduce firmware code unless explicitly requested.
+- Prefer small, reviewable commits.
+- **Do not introduce firmware code or claim KiCad/ERC/DRC validation until
+  explicitly requested and genuinely performed.**
+- Do not drive an 8-ohm speaker from a GPIO. A reserved PWM/PDM output needs
+  filtering and a separate suitably rated audio amplifier.
+- Treat JLCPCB availability, pricing, assembly class, symbol pin mapping,
+  footprint and thermal/current constraints as unverified until checked.
 
 ## Source Documents
 
 - Root overview: `README.md`
-- Hardware index: `hardware/README.md`
-- Hardware decisions/tasks: `hardware/todo.md`
-- Architecture/roadmap: `docs/architecture.md`, `docs/roadmap.md`
+- Mini entry point: `mini/README.md`
+- Mini architecture / tests: `mini/docs/`
+- Mini BOM and preliminary GPIO: `mini/hardware/`
+- Legacy full hardware notes: `hardware/README.md`
+- Legacy architecture/roadmap: `docs/architecture.md`, `docs/roadmap.md`
 
 ## Session Persistence Workflow
 
 1. Read `AGENTS.md`, `MEMORY.md`, and `CHAT.md`.
-2. Execute the next scoped task with minimal, targeted changes.
-3. Update `MEMORY.md` with stable decisions only.
-4. Update `CHAT.md` with what changed this session and next actions.
-5. Before every `git commit`, refresh `MEMORY.md` and `CHAT.md` so they match
-   the staged changes.
+2. Follow the active Mini scope or the explicitly requested legacy scope.
+3. Execute next scoped task with minimal changes.
+4. Update `MEMORY.md` with stable decisions, separating Mini vs full concept.
+5. Update `CHAT.md` with actual changes and next actions.
+6. **Before every git commit**, refresh `MEMORY.md` and `CHAT.md` to
+   match the staged changes.

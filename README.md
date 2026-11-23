@@ -14,6 +14,14 @@ same synth engine.
 - Power: designed around a 2x NiMH battery path and USB-C powered operation.
 - Status: early design and documentation stage.
 
+## eTiWi Mini — first prototype
+
+The immediate milestone is [eTiWi Mini](mini/README.md): an RP2354A USB-MIDI
+controller with eight MPR121 capacitive electrodes and an LPS28DFW breath
+sensor, powered from USB-C. The first tests use an **external MIDI synth**;
+a PWM/PDM speaker-output stage is reserved as an optional later experiment.
+The original VS1053B, battery-powered design remains a longer-term goal.
+
 ## Project Status
 
 The project is currently in early hardware and firmware planning.

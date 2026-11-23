@@ -1,43 +1,35 @@
 # CHAT
 
-## Current Status (2026-03-03)
+## Current Status (2026-11-23)
 
-- Repository documentation is in early design/planning stage.
-- No firmware code has been introduced in this phase.
+- Active work: **eTiWi Mini V0.1** architecture/docs repository scaffold.
+- Repository still has **no firmware, actual KiCad schematic or fabricated
+  PCB**. Original full-instrument planning notes remain in `hardware/` and
+  `docs/`.
+- Old status/log through 2026-03-03 is superseded for active scope by
+  the Mini decision; earlier details remain accessible in git history.
 
-## Last Session Changes
+## Change Set: 2026-11-23
 
-- Reformatted root and hardware Markdown files for readability and consistency.
-- Added `docs/README.md`, `docs/architecture.md`, and `docs/roadmap.md`.
-- Expanded `hardware/todo.md` into concrete, measurable V1 checklist items.
-- Verified required hardware documentation files are present.
-- Verified Markdown files end with trailing newline.
+- Created `mini/README.md`.
+- Created `mini/docs/architecture.md` and `mini/docs/bringup.md`.
+- Created `mini/hardware/README.md`, `mini/hardware/pin_plan.md`,
+  `mini/hardware/bom.csv`, `mini/hardware/kicad/README.md`.
+- Created `mini/firmware/README.md` (plan only, no firmware code).
+- Added `mini/` pointer to root README and updated root `AGENTS.md`.
+- Refreshed `MEMORY.md` and `CHAT.md` before committing.
 
-## Session Persistence Setup
+## Next Actions
 
-- Added `AGENTS.md` with project scope, rules, and persistence workflow.
-- Added `MEMORY.md` with stable architectural/hardware decisions.
-- Added `CHAT.md` for rolling session log and next-step continuity.
+1. Review latest official RP2350 reference schematic/BOM for RP2354A
+   crystal, integrated core regulator and polarized inductor.
+2. Lock complete USB-C/3V3 component selection, USB current budget, and
+   sensor pin mapping/land patterns; refresh JLCPCB stock/part numbers.
+3. Create **actual** KiCad project and electrical schematic.
+4. Run ERC, then create PCB/pad geometry, DRC, export Gerbers/BOM/CPL.
+5. Begin a small Pico SDK/TinyUSB USB-MIDI firmware after explicit request;
+   measure sensing and MIDI latency before adding optional audio.
 
-## Next Practical Steps
+## Session Rule
 
-1. Resolve V1 open hardware choices listed in `hardware/todo.md`.
-2. Convert selected choices into schematic-ready requirements (still docs-only).
-3. Start KiCad capture only after open checklist items are sufficiently closed.
-
-## Update (2026-03-03)
-
-- Reflected new hardware direction/decisions in docs:
-  - VS1053B clocking from MCU MCLK, no dedicated VS1053B quartz/crystal.
-  - FRAM chosen instead of EEPROM for non-volatile settings/presets.
-  - RP2350B + large external flash recorded as current evaluation direction.
-  - V1 controls decided: power switch, rotary encoder with push, play/stop,
-    back/function.
-- Updated files: `hardware/interfaces.md`, `hardware/parts_candidates.md`,
-  `docs/architecture.md`, `hardware/README.md`, `hardware/todo.md`,
-  `MEMORY.md`, `CHAT.md`.
-
-## Update (2026-03-03, Pre-Commit Rule)
-
-- Added explicit rule in `AGENTS.md`: before every commit, refresh
-  `MEMORY.md` and `CHAT.md` so they match staged changes.
+Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
