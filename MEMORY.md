@@ -104,3 +104,5 @@ Stand: 2026-11-23
 - Still NOT manufacturing-ready: provisional U3 pressure footprint, USB-C and RP2354A polarized regulator layout/ESD/current review, supplier BOM, and actual routed PCB/DRC remain unfinished.
 
 - 2026-11-23: schematic readability: controller/USB/power core transformed to A2, with 2x graphical distances between schematic symbols/pins/wires. Project-local `_Diagram2x` schematic symbol variants added; footprints physically unchanged. Verify ERC/netlist and PDF visually.
+
+- 2026-11-23 footprint/PDF audit: ST LPS28DFW 7L library had physically wrong pad orientation (not visible to ERC); corrected 1 top, 4 bottom, side pads and central lid per ST DS13317/TN0018, still engineering review for assembly. MPR121 custom symbol pin numbering matches NXP. Added manufacturer footprint audit report. Improved cap C39, GPIO labels, TP1–TP8 annotation and analog audio filter layout in native KiCad sheets; ERC and PDF rerun required.

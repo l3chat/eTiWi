@@ -66,3 +66,16 @@ PCB layout and DRC. Do not submit schematic-only draft for PCB assembly.
 ## Readability revision (2026-11-23)
 
 - Controller/USB/power page uses A2 and `_Diagram2x` schematic-only symbols with 2x electrical drawing coordinates to reduce overlapping text. Physical component footprints are **unchanged**. Pending KiCad ERC and visual PDF review.
+
+## 2026-11-23: footprint audit and PDF readability pass
+
+- Added [FOOTPRINT_AUDIT.md](FOOTPRINT_AUDIT.md) with manufacturer-specific
+  package/land-pattern comparison and explicit manufacturing blockers.
+- Discovered physical orientation error in previously draft U3 ST LPS28DFW
+  footprint; corrected physical pad arrangement and land dimensions to match
+  ST datasheet Figure 19 and TN0018. **PCB orientation/stencil still require
+  review; KiCad ERC cannot catch a rotated pad pattern.**
+- Repositioned controller C39 reference/value, reduced crowded GPIO label
+  font while keeping electrical anchors, moved TP label fields outside tiny
+  symbol outlines, separated audio R110/111 fields and extended the input
+  PWM label wire for clearer PDF. Netlist/ERC recheck pending.

@@ -11307,7 +11307,7 @@
 		(dnp no)
 		(uuid "bd7fd34b-3f4f-497f-b153-575dd9489f29")
 		(property "Reference" "C39"
-			(at 454.66 60.9598 0)
+			(at 235.585 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11316,7 +11316,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 454.66 66.0398 0)
+			(at 235.585 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)

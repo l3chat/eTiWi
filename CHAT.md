@@ -127,3 +127,16 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 
 - On 01_controller_usb_power, scaled schematic-only pins/symbol geometry and absolute connection coordinates by exactly 2; changed paper A4 -> A2.
 - Added `_Diagram2x` variants under sym_local (no physical changes to footprints). ERC/PDF inspection required before signoff.
+
+## 2026-11-23: production footprint and PDF readability review
+
+- Inspected four-page native KiCad PDF: C38/C39 overlapping value text,
+  crowded GPIO labels near U1/J3/J4, electrode labels inside tiny boxes,
+  AUDIO_PWM_RAW too close to R110.
+- Found and corrected U3 LPS28DFW draft footprint rotation and land sizes
+  using official ST DS13317 Figure 19 and TN0018; stencil and top-view
+  orientation still to verify for fabrication.
+- Compared U2 MPR121 symbol against official 20-pad NXP pinout;
+  other critical footprints summarized in FOOTPRINT_AUDIT.md.
+- Applied annotation-only PDF readability changes and connected longer
+  AUDIO_PWM_RAW label lead; awaiting GitHub Actions ERC/netlist/PDF review.

@@ -48,7 +48,7 @@ R113,1k,Resistor_SMD:R_0603_1608Metric,,,,Needs manufacturer footprint and JLC a
 RESET1,SW_Push,Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2,C&K,KMR241G LFS,,KiCad standard footprint; check availability,
 U1,RP2354A,Package_DFN_QFN:QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm,Raspberry Pi,SC1511(13)-A4,C41378174,Needs manufacturer footprint and JLC availability review,RP2354A internal 2MB flash
 U2,MPR121QR2,Package_DFN_QFN:UQFN-20_3x3mm_P0.4mm,,,C91322,Needs manufacturer footprint and JLC availability review,Check NXP COL 20-pin land pattern
-U3,LPS28DFWTR,,,,C3263277,Tentative footprint - verify ST TN0018,Assign ST verified CCLGA-7L footprint
+U3,LPS28DFWTR,,,,C3263277,Corrected provisional ST geometry; pending PCB rotation/assembly verification,Assign ST verified CCLGA-7L footprint
 U4,AP2112K-3.3,Package_TO_SOT_SMD:SOT-23-5,Diodes Incorporated,AP2112K-3.3TRG1,,Needs manufacturer footprint and JLC availability review,
 USBDEV1,SW_Push,Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2,C&K,KMR241G LFS,,KiCad standard footprint; check availability,
 Y1,Crystal,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,Abracon,ABM8-272-T3,,Needs manufacturer footprint and JLC availability review,
