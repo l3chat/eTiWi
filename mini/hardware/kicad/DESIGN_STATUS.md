@@ -95,3 +95,11 @@ See [FOOTPRINT_AUDIT.md](FOOTPRINT_AUDIT.md). U3 LPS28DFW local footprint copper
 - Hidden redundant FINGER# values on TP1–TP8; the TP# references and
   ELE0–ELE7 net labels remain visible.
 - New KiCad PDF/ERC visual review and netlist comparison required.
+
+## ERC caution and resolution
+
+- Post-layout KiCad run temporarily reported 60 `lib_symbol_mismatch` warnings
+  due to automated resizing of embedded `lib_symbols` text. These warnings
+  are unrelated to footprint copper and are not an approved final status.
+- Reinstated the authoritative embedded symbol definitions from the previous
+  A2 schematic, keeping only instance annotations. Recheck ERC before release.

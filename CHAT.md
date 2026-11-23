@@ -153,3 +153,9 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
   to scaled coordinates, made small text more legible.
 - Hidden 8 extra FINGER value fields from touch-pad symbols; TP references remain.
 - No intended wiring change. New GitHub Actions export/ERC to verify.
+
+## 2026-11-23: resolve KiCad embedded symbol mismatch warnings
+
+- Preview visually clearer, but ERC reported 60 library definition mismatches after changing font sizes globally.
+- Restored embedded library block from previous known clean A2 schematic, retaining only human-visible instance annotation changes and corrected C39 coordinates.
+- Await GitHub Actions ERC and PDF to verify warning count returns to zero.

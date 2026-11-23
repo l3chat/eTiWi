@@ -110,3 +110,5 @@ Stand: 2026-11-23
 - 2026-11-23 footprint check: ST LPS28DFW CCLGA corrected top/bottom pad dimensions (0.55 -> 1.00 mm on pads 2/3/5/6) per ST DS13317 Fig19 and TN0018. Pad numbering follows PCB TOP-VIEW mirrored relative ST bottom-view; lid pad7 GND, solder. Still mechanical/assembly verification required. See FOOTPRINT_AUDIT.md.
 
 - 2026-11-23 PDF cosmetic fix after concurrent A2 controller refactor: moved C39 ref/value fields to scaled sheet coordinates, increased controller text 1.27→1.50 mm and hid redundant FINGER# labels on electrodes. Electrical connections unchanged. Await KiCad PDF/ERC verification.
+
+- 2026-11-23 ERC recovery: controller text enlargement changed embedded library symbols and caused 60 lib_symbol_mismatch warnings. Restored original embedded `lib_symbols` block from prior A2 commit while preserving instance field positions/font updates. ERC must be rechecked.
