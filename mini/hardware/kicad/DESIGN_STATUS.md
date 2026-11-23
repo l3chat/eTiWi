@@ -62,3 +62,7 @@ also attempt PCB PDF and DRC exports.
 
 **Next:** manufacturing-level footprint/parts verification, then KiCad
 PCB layout and DRC. Do not submit schematic-only draft for PCB assembly.
+
+## Readability revision (2026-11-23)
+
+- Controller/USB/power page uses A2 and `_Diagram2x` schematic-only symbols with 2x electrical drawing coordinates to reduce overlapping text. Physical component footprints are **unchanged**. Pending KiCad ERC and visual PDF review.

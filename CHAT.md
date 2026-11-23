@@ -122,3 +122,8 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Independently compared all 77 net groups and 255 ref/pin memberships to original monolithic netlist; equal.
 - Refreshed design status and README files to remove stale 'no schematic/no ERC' claims.
 - Next hardware stage: validate provisional U3 CCLGA footprint and manufacturer parts, then PCB layout and DRC. No PCB preview exists yet.
+
+## 2026-11-23: enlarged schematic symbols and circuit spacing
+
+- On 01_controller_usb_power, scaled schematic-only pins/symbol geometry and absolute connection coordinates by exactly 2; changed paper A4 -> A2.
+- Added `_Diagram2x` variants under sym_local (no physical changes to footprints). ERC/PDF inspection required before signoff.

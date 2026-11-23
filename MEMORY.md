@@ -102,3 +102,5 @@ Stand: 2026-11-23
 - Cross-checked 77 electrical net groups and 255 component pin connections against the original pre-refactor netlist; all memberships identical.
 - Human-reviewed rendered four-page PDF, refined layout away from border/title; audio J5 BOM-excluded with no DNP marker.
 - Still NOT manufacturing-ready: provisional U3 pressure footprint, USB-C and RP2354A polarized regulator layout/ESD/current review, supplier BOM, and actual routed PCB/DRC remain unfinished.
+
+- 2026-11-23: schematic readability: controller/USB/power core transformed to A2, with 2x graphical distances between schematic symbols/pins/wires. Project-local `_Diagram2x` schematic symbol variants added; footprints physically unchanged. Verify ERC/netlist and PDF visually.
