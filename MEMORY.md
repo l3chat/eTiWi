@@ -114,3 +114,5 @@ Stand: 2026-11-23
 - 2026-11-23 ERC recovery: controller text enlargement changed embedded library symbols and caused 60 lib_symbol_mismatch warnings. Restored original embedded `lib_symbols` block from prior A2 commit while preserving instance field positions/font updates. ERC must be rechecked.
 
 - Latest layout 2026-11-23: KiCad diagram-only 2x pin spacing on A2 controller made text legible, ERC 0 errors/warnings. 77 nets and 255 pin connections identical to prior pre-layout export. Final QSPI_SS label font reduced to prevent border contact; final workflow recheck pending. JLC candidates: HRO M14 C223907, Abracon inductor C42411119.
+
+- Final schematic typography: added pin_names offset 5.08 mm on MCU _Diagram2x only; expected to move long labels (notably QSPI_SS) inside boundary, PCB footprints/nets unchanged. Pending KiCad export QA.

@@ -166,3 +166,5 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Compared KiCad netlist with original: 77 nets / 255 pins same names and memberships.
 - Reduced QSPI_SS pin label font only where it touched symbol border.
 - Added confirmed catalog candidate IDs for USB-C HRO TYPE-C-31-M-14 and Abracon 3.3uH inductor; production qualification still pending.
+
+- MCU A2 schematic symbol text: set pin name inset 5.08mm to avoid the last border contact at ~QSPI_SS; footprint and pin coordinates remain unchanged; verify PDF/ERC.

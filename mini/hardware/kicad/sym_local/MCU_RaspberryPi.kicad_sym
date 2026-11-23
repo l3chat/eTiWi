@@ -1211,6 +1211,7 @@
 			(embedded_fonts no)
 		)
 (symbol "RP2354A_Diagram2x"
+(pin_names (offset 5.08))
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
