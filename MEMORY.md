@@ -87,3 +87,5 @@ Stand: 2026-11-23
   Actual completed CI/ERC results remain unverified.
 - Tablet preview currently uses a separate three-page functional vector
   PDF, not exact KiCad page export. No PCB preview until native PCB exists.
+
+- CI fix 2026-11-23: GitHub Actions KiCad 9 container needs `options: --user 0` because the non-root default user cannot write GitHub runner's `/__w/_temp/_runner_file_commands/save_state_*` during `actions/checkout@v4` (EACCES). This is a checkout environment problem, not a KiCad/ERC error. Results from the retriggered run are not yet verified.

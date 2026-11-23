@@ -89,3 +89,9 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Created separate 3-page functional vector PDF for tablet in conversation.
 - Corrected +3V3 net name based on actual power symbol net pin.
 - No verified KiCad ERC pass and no PCB layout as of this entry.
+
+## 2026-11-23: Fix GitHub Actions EACCES at checkout
+
+- User supplied job log: `actions/checkout@v4` fails with `EACCES` writing `/__w/_temp/_runner_file_commands/save_state_*` inside `ghcr.io/kicad/kicad:9.0`.
+- Updated workflow container options to `--user 0`; this is a standard workaround for GitHub Actions job containers with non-root default users.
+- No verified outcome for the new workflow run; inspect the run artifacts, PDF export, and ERC report next.

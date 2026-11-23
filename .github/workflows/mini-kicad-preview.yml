@@ -14,6 +14,9 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/kicad/kicad:9.0
+      # The KiCad image runs as a non-root user by default. GitHub's
+      # checkout action needs write access to /__w/_temp/_runner_file_commands.
+      options: --user 0
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
