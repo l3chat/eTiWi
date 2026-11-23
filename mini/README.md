@@ -9,8 +9,11 @@ eTiWi Mini is the **first, intentionally simplified hardware prototype** of
 - **MPR121QR2**: 8 copper capacitive-touch electrodes (12 available channels).
 - **LPS28DFWTR**: digital, water-resistant pressure sensor for breath input.
 - **USB-C**: 5 V bus power plus native USB 2.0 MIDI data to a host.
-- **Optional later population**: filtered PWM/PDM audio + small analog-input
-  speaker amplifier, to evaluate an MCU-based synthesizer **without VS1053B**.
+- **Universal audio expansion**: unpopulated 2x6, 2.54 mm through-hole header,
+  raw PWM/PDM, factory-assembled filtered/AC-coupled mono analog audio,
+  I2S digital audio signals, enable GPIO and power/ground. Bring your own
+  tested amplifier/DAC module; no SMD amplifier is mounted in Mini V0.1.
+  See [audio interface](hardware/audio_interface.md).
 
 A computer, tablet or phone with USB host capability supplies the synth/audio
 output for the **first bring-up**. Verify host support and USB power budget.
@@ -31,8 +34,10 @@ This documentation is not manufacturing-ready.
 - [Bring-up tests](docs/bringup.md): measurable first-board checks.
 - [Hardware overview](hardware/README.md).
 - [Pin allocation](hardware/pin_plan.md): provisional GPIO/I2C/USB plan.
-- [Preliminary JLCPCB BOM](hardware/bom.csv): verified catalog references
+- [Preliminary JLCPCB BOM](hardware/bom.csv): catalog references
   and clearly marked unresolved parts.
+- [Universal audio connector](hardware/audio_interface.md): safe module
+  interface, hand-soldering options and provisional RC filter.
 - [KiCad project conventions](hardware/kicad/README.md).
 - [Firmware plan](firmware/README.md): Pico SDK / TinyUSB; **no source yet**.
 
@@ -43,7 +48,8 @@ This documentation is not manufacturing-ready.
 2. Create actual KiCad schematic + library symbols + matching footprints.
 3. Run ERC, review netlist, route PCB, run DRC, prepare Gerbers/BOM/CPL.
 4. Bring up USB, sensors and first MIDI note events (without audio amplifier).
-5. Optionally populate/test PWM/PDM audio through a properly designed amp.
+5. Assemble/test PWM/PDM mono audio via an external appropriately rated
+   amplifier, or I2S via an external DAC, using the audio header.
 
 ## Primary references
 

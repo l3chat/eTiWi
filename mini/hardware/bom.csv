@@ -17,5 +17,9 @@ Pressure,C_PRESS,Various,TBD,TBD,Sensor decoupling and I2C strapping,TBD,To sele
 Debug,SWD pads,1,PCB,Test pads,SWDIO SWCLK GND 3V3,TBD,PCB geometry,Include accessible debug and reset
 Controls,SW_BOOT SW_RESET,2,TBD,TBD,Boot selection and reset access,TBD,To select,Validate RP2354A flash boot behavior
 Indicator,LED1 R_LED,2,TBD,TBD,Status LED and series resistor,TBD,To select,Optional
-Optional audio,U5,1,Diodes Inc.,PAM8302AADCR,5V class-D analog mono amplifier,C112137,Optional NOT POPULATED,Requires PWM/PDM filter amplifier input design and USB current check
-Optional audio,J_SPK,1,TBD,TBD,Speaker connector for rated 8-ohm speaker,TBD,Optional NOT POPULATED,DO NOT drive directly from GPIO
+Audio expansion,J_AUDIO,1,TBD,2x6 2.54mm TH pads,Unpopulated plated through-hole connector field,PCB,Footprint only,Silkscreen every pin; optional header hand-soldered
+Audio filter,R_A1 R_A2,2,TBD,1k 1pct 0603,Provisional two-pole passive LPF,TBD,Preliminary values,Factory assembled; analyze actual response incl amplifier input loading
+Audio filter,C_A1 C_A2,2,TBD,10nF X7R 0603,Two filter shunt capacitors,TBD,Preliminary values,Factory assembled; values subject to measurement
+Audio filter,C_A3,1,TBD,1uF X7R 0603/0805,Analog output AC coupling,TBD,Preliminary value,Factory assembled; check low frequency cutoff and module input bias
+Audio filter,R_A3,1,TBD,100k 0603,Analog output discharge/bias-to-ground resistor,TBD,Preliminary value,Factory assembled
+Audio control,R_AEN,1,TBD,1k 0603,Series protection for external amplifier enable,TBD,Preliminary value,Check control polarity and module enable input

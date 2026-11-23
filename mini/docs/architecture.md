@@ -16,7 +16,11 @@ USB-C host: 5 V VBUS + USB D+/D-
                             +---- GPIO/IRQ <----- MPR121 IRQ
                             +---- GPIO (optional) <- pressure DRDY
                             +---- USB-MIDI ------> external sound engine
-                            +---- reserved PWM/PDM -> filter -> amplifier
+                            +---- GP5 PWM/PDM --> low-pass + AC coupling --+
+                            |                                     AUDIO_OUT
+                            +---- GP6 (AMP_EN), GP10..12 (PIO I2S) --------+
+                                                                  2x6 HEADER
+                                                                  (ext. module)
 ```
 
 MCU 2 MB in-package flash suffices for initial firmware and small settings;
@@ -57,14 +61,25 @@ pull-up placement and the selected package pins before schematic release.
 - Low-noise, short, dry electrode traces; reserve ground shielding/guard
   experiments **without** adding ground directly beneath sensing electrodes.
 
-## Optional speaker
+## Universal audio expansion (no onboard amp)
 
-Reserve one MCU GPIO suitable for PWM/PIO output and an amplifier enable
-pin. Audio output must go through an appropriate reconstruction/low-pass
-filter, gain stage and **separate speaker driver**. Never connect an 8-ohm
-speaker directly to an RP2354A GPIO or use a small signal transistor as an
-unlimited 5 V switch. Power an optional 5 V amp from USB VBUS only after
-verifying connector/host USB current budget and amp ratings.
+A **2x6, 2.54 mm through-hole pad field**, optionally fitted with a header,
+exports grounds, regulated 3V3, USB 5V, GP5 PWM/PDM_RAW, GP6 AMP_EN,
+GP10 I2S_BCLK, GP11 I2S_LRCLK, GP12 I2S_DOUT, and an AC-coupled mono
+AUDIO_OUT formed by a two-stage RC filter from GP5. The RC/filter capacitors
+are inexpensive SMD components intended for factory assembly.
+
+This accommodates (a) analog-input class-D amplifier modules using
+AUDIO_OUT, or (b) digital-I2S DAC/amplifier modules using the I2S signals.
+No amplifier chip, speaker connector or speaker power stage is placed on the
+Mini V0.1 PCB. The header is not plug-and-play with any particular module;
+check its pin order, logic and power ratings and use a wired adapter.
+
+Never connect an 8-ohm speaker directly to an RP2354A GPIO, to the AC
+coupled output, or as a load on a small-signal transistor. Power a 5V amp
+from USB VBUS **only** after checking the USB host/port current budget and
+adding adequate supply protection and local bypass capacitors on the module.
+See [audio interface wiring](../hardware/audio_interface.md).
 
 ## Mechanical notes
 

@@ -21,8 +21,14 @@ Stand: 2026-11-23
 - 3V3 supply for MCU/sensors; RP2354A own internal core regulator must be
   wired per official current Raspberry Pi reference (polarized inductor).
 - External host synthesizer is the **first bring-up audio source**.
-- Reserve PWM/PDM data and amplifier enable GPIO for **optional later**
-  software synthesis through a properly filtered external audio amplifier.
+- Universal unpopulated 2x6 2.54mm through-hole audio pad field:
+  GP5 raw PWM/PDM, GP5 two-stage RC+AC-coupled mono AUDIO_OUT,
+  GP6 external AMP_EN, GP10-12 digital I2S, GND, 3V3, USB 5V.
+- Tiny RC/filter passives should be factory-assembled by JLCPCB;
+  manual soldering only for optional header/wires.
+- **No speaker amp on the Mini PCB**; later attach a known analog-input
+  amplifier or I2S DAC/amp module using a correctly wired cable.
+  Review USB power budget before driving an 8-ohm speaker.
 - No NiMH, VS1053B, OLED or battery charger in Mini V0.1.
 - No KiCad schematic, fabricated PCB or working firmware exists yet.
 - Preliminary GPIO mapping and provisional JLCPCB catalog BOM in `mini/`.
@@ -32,7 +38,8 @@ Stand: 2026-11-23
 - RP2354A specific clock/inductor/decoupling reference implementation.
 - USB-C receptacle, ESD, complete passives, LDO and layout.
 - Sensor port/mechanical moisture protection and pad geometry/latency.
-- Optional audio amplifier/filter/USB current budget.
+- External audio module input pinout, header and RC filter validation,
+  USB power budget; no onboard amplifier in Mini V0.1.
 - Manufacturer footprints, assembly availability and electrical ERC/DRC.
 
 ## Codex Continuity

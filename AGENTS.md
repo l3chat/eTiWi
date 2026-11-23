@@ -8,7 +8,8 @@ This repository covers eTiWi, a breath-controlled MIDI instrument:
 - Long-term: VS1053B-based General MIDI playback, play-along and battery power.
 - **Immediate active prototype: [eTiWi Mini](mini/README.md)** — RP2354A,
   MPR121 (8 capacitive touch electrodes), LPS28DFW breath sensing,
-  USB-C bus-powered USB-MIDI, with optional future PWM/PDM audio.
+  USB-C bus-powered USB-MIDI, with an optional universal audio header
+  (filtered mono PWM/PDM analog or I2S to an external module).
 - The older `hardware/` and `docs/` specifications describe the earlier
   full-instrument direction; **do not silently overwrite them** with Mini
   choices. Use the `mini/` subtree for Mini-specific changes.
@@ -23,8 +24,12 @@ This repository covers eTiWi, a breath-controlled MIDI instrument:
 - Prefer small, reviewable commits.
 - **Do not introduce firmware code or claim KiCad/ERC/DRC validation until
   explicitly requested and genuinely performed.**
-- Do not drive an 8-ohm speaker from a GPIO. A reserved PWM/PDM output needs
-  filtering and a separate suitably rated audio amplifier.
+- Do not drive an 8-ohm speaker from a GPIO. GP5 PWM/PDM is reserved
+  for a raw test signal and an RC/AC-coupled analog output; 2x6 audio
+  header also provides 3V3 I2S GP10..12, GP6 EN, USB 5V, 3V3, GND.
+  External amp/DAC requires a wired adapter and USB current review.
+- Keep Mini V0.1 on-board amplifier unpopulated: no small signal transistors
+  or GPIO-powered speaker. Leave 2.54mm header pads easily hand-solderable.
 - Treat JLCPCB availability, pricing, assembly class, symbol pin mapping,
   footprint and thermal/current constraints as unverified until checked.
 
@@ -33,7 +38,7 @@ This repository covers eTiWi, a breath-controlled MIDI instrument:
 - Root overview: `README.md`
 - Mini entry point: `mini/README.md`
 - Mini architecture / tests: `mini/docs/`
-- Mini BOM and preliminary GPIO: `mini/hardware/`
+- Mini BOM, audio connector and preliminary GPIO: `mini/hardware/`
 - Legacy full hardware notes: `hardware/README.md`
 - Legacy architecture/roadmap: `docs/architecture.md`, `docs/roadmap.md`
 

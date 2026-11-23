@@ -19,7 +19,9 @@ same synth engine.
 The immediate milestone is [eTiWi Mini](mini/README.md): an RP2354A USB-MIDI
 controller with eight MPR121 capacitive electrodes and an LPS28DFW breath
 sensor, powered from USB-C. The first tests use an **external MIDI synth**;
-a PWM/PDM speaker-output stage is reserved as an optional later experiment.
+a universal 2x6 audio header provides filtered mono PWM/PDM analog output
+or I2S for an external amplifier/DAC module. No audio amplifier is installed
+on the Mini V0.1 board.
 The original VS1053B, battery-powered design remains a longer-term goal.
 
 ## Project Status

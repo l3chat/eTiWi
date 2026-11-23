@@ -9,9 +9,11 @@
 4. **MPR121QR2** on I2C, IRQ to MCU, 8 PCB copper electrodes.
 5. **LPS28DFWTR** on the same I2C bus, provision for optional DRDY.
 6. One debug/status LED and future-use pads.
-7. **Optional/unpopulated** filtered MCU PWM/PDM audio plus analog-input
-   mono amplifier (candidate PAM8302AADCR) and 8-ohm speaker connector.
-   Amp class/part and safety still require schematic review.
+7. **Universal audio connector**: unpopulated 2x6, 2.54 mm through-hole
+   header exposing raw PWM/PDM, filtered AC-coupled mono analog, I2S,
+   amplifier enable, 3V3, USB 5V and grounds. No on-board speaker amp.
+   Small filter passives are installed at JLCPCB. An external module
+   requires a correctly wired adapter and current-budget review.
 
 ## Design references
 
@@ -25,6 +27,7 @@
 ## Files
 
 - [Provisional pin plan](pin_plan.md).
+- [Universal audio interface](audio_interface.md).
 - [Candidate BOM](bom.csv) — **not a finalized procurement file**.
 - [KiCad folder](kicad/README.md) — filenames, electrical rules and checks.
 

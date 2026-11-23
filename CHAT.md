@@ -33,3 +33,16 @@
 ## Session Rule
 
 Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
+
+## Update (2026-11-23, universal audio interface)
+
+- Decision: Mini V0.1 should not include an onboard speaker amplifier.
+- Documented unpopulated **2x6 2.54mm through-hole audio expansion**:
+  ground, USB 5V, 3V3, PWM/PDM_RAW (GP5), filtered AC-coupled mono AUDIO_OUT,
+  AMP_EN (GP6), I2S BCLK/LRCLK/DOUT (GP10–GP12).
+- Added `mini/hardware/audio_interface.md` including pinout, safe connection,
+  provisional filter values, assembly options, power-budget caveats.
+- Updated Mini architecture, BOM, pin plan, KiCad conventions, firmware plan
+  and root/agent memory to reflect use of *external* amplifier/DAC modules.
+- Did not produce a validated KiCad electrical schematic or PCB. Next action:
+  capture proper schematic in KiCad and verify ERC/DRC.

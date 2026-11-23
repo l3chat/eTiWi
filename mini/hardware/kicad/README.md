@@ -14,8 +14,9 @@ Create these files in KiCad during schematic capture:
 1. `01_usb_power_mcu`: USB-C, ESD, 3V3, RP2354A core regulator,
    reference inductor, 12 MHz reference, reset, BOOTSEL, SWD.
 2. `02_touch_pressure`: MPR121, 8 PCB electrodes, LPS28DFW, I2C.
-3. `03_audio_optional`: reserved MCU PWM/PDM output; designed filter,
-   analog-input mono amp, speaker connector; mark do-not-populate by default.
+3. `03_audio_expansion`: GP5 raw PWM/PDM, R-C/R-C low-pass,
+   series AC coupling, GP6 amplifier enable, GP10..12 I2S PIO pins,
+   unpopulated 2x6 through-hole header. No on-board amplifier.
 
 ## Review checklist before Gerbers
 
@@ -26,7 +27,11 @@ Create these files in KiCad during schematic capture:
 - Include **both USB-C Rd resistors**, USB D+/D- proper connector mapping,
   ESD and safe VBUS handling.
 - Verify I2C addresses, pull-ups, sensor IRQ/strap and pressure port direction.
-- Confirm analog/audio filter and the amplifier do not overload USB power.
+- Confirm analog filter values under actual module input loading;
+  factory-assemble filter passives; keep header through-hole and optional.
+- Confirm the external amplifier/DAC module does not overload USB power;
+  do not connect a speaker to MCU GPIO or ground a bridge output.
+- Silk-screen every header pin and voltage clearly, especially +5V vs +3V3.
 - Run KiCad **ERC**, inspect netlist, then **DRC**, inspect Gerbers.
 - Generate and independently inspect JLCPCB BOM (C numbers) + CPL/centroids.
 - Recheck component availability and PCBA tier before purchasing.
