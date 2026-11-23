@@ -107,3 +107,10 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Original PDF showed components outside A3 and audio filter overlaying title block. Created KiCad V0.2 hierarchy with three A4 functional schematic sheets plus overview, moved all 88 original component instances and 255 wires, split into functional areas and snapped to 1.27mm grid.
 - Added local symbol libraries derived from embedded symbol definitions, `sym-lib-table` and the source reference KiCad project settings.
 - Requires new GitHub Actions KiCad ERC and PDF inspection. Do not call manufacturing ready before review.
+
+## 2026-11-23: final schematic PDF layout cleanups
+
+- Root: moved and shrunk three hierarchical sheet rectangles to remove collision with A4 title block.
+- Sensors: shifted connected U3 LPS28DFW and C103 decoupling group up by 25.4mm to clear title block, preserving net positions together.
+- Audio: J5 through-hole-only optional connector removed from BOM and its KiCad DNP red X removed; no factory-fitted header expected.
+- Re-run native KiCad PDF/ERC before declaring final.

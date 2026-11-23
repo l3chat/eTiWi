@@ -93,3 +93,5 @@ Stand: 2026-11-23
 - Workflow debug 2026-11-23: added snapshot of KiCad source schematic to CI artifact and library-environment log to diagnose 96 endpoint_off_grid, 88 lib_symbol_issues, 11 footprint_link_issues; preparing readable multi-sheet source.
 
 - Refactored monolithic KiCad Mini draft into 4-page A4 hierarchy: overview plus MCU/USB/power, sensors, audio sheets. Added project-local embedded symbol library tables and grid alignment; next confirm with KiCad 9 ERC and PDF. Source reference history preserved in git.
+
+- Visual PDF QA 2026-11-23: shrunk/relocated root hierarchy boxes away from A4 title block, shifted pressure U3/C103 group and attached nets upward 25.4mm, changed J5 from DNP-red-X to BOM-excluded fitted electrical symbol (PCB through-hole pads still provided, no header factory installed). KiCad ERC recheck pending for this cleanup.
