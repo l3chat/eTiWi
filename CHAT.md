@@ -64,3 +64,6 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Connectivity label-to-wire audit passed for sensor/I2C/audio labels.
 - Highlighted blocking incomplete/incorrect footprints: J1, USBDEV1,
   L1 polarised Abracon inductor, U3 LPS28DFW. KiCad ERC still NOT RUN.
+
+- Added custom provisional L1 Abracon footprint from datasheet pad dimensions;
+  corrected schematic, BOM, and schematic status accordingly.

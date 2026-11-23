@@ -14,3 +14,7 @@ assigned the exact chosen footprints and passed through ERC before layout.
 
 The automatically generated [BOM](../bom.csv) is a *draft matching the schematic*,
 not a JLCPCB order file; see the unresolved footprint blockers in DESIGN_STATUS.md.
+
+Project-local Abracon polarized inductor footprint is included in
+`eTiWi.pretty/`; orient marked pad1 according to Raspberry Pi reference
+layout, not just the schematic symbol.

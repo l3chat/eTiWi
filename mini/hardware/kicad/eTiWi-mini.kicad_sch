@@ -7723,7 +7723,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "3.3uH POL"
 			(at 106.68 22.86 90)
 			(effects
 				(font
@@ -7731,7 +7731,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "eTiWi:Abracon_AOTA_B201610S3R3_101_T"
 			(at 106.68 25.4 0)
 			(effects
 				(font

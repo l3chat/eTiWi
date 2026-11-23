@@ -58,3 +58,16 @@ BOM from schematic, then layout PCB and run DRC.
 - **Do not send the supplied schematic/BOM directly to JLCPCB.** A
   manufacturer-qualified footprint selection, proper local library,
   ERC, and human review remain required.
+
+## 2026-11-23: L1 footprint correction (draft)
+
+- Replaced the inherited resistor-0805 pad pattern of L1 with project-local
+  `eTiWi:Abracon_AOTA_B201610S3R3_101_T`.
+- Physical land pattern uses manufacturer's two 1.0x1.6mm pads separated
+  by 1.0mm. The marker is placed near pad1; reference Raspberry Pi
+  regulator drawing has the marked pad on +1V1 side and VREG_LX on pad2.
+- **This is not a qualified SMPS layout.** Review the actual on-board
+  inductor rotation and capacitors/loop geometry against the official
+  Raspberry Pi RP2350 guide (especially its Figure 4) before routing.
+- Previously identified J1, RESET1 and USBDEV1 private-library footprints,
+  and U3 CCLGA pressure footprint, remain unresolved.

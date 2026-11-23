@@ -65,3 +65,7 @@ Stand: 2026-11-23
   until these are resolved.
 - Rebuilt `mini/hardware/bom.csv` from actual schematic references
   (53 components incl J5 DNP) rather than earlier conceptual BOM.
+
+- Added a provisional manufacturer-land-pattern footprint for L1 Abracon
+  polarized 3.3uH inductor, with dot marking pin1; requires RP2350 SMPS
+  layout orientation review (not yet ERC or PCB reviewed).

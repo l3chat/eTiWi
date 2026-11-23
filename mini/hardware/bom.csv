@@ -28,7 +28,7 @@ J2,SWD,Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical,,,,Needs manuf
 J3,Con,Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical,,,,Needs manufacturer footprint and JLC availability review,
 J4,Con,Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical,,,,Needs manufacturer footprint and JLC availability review,
 J5,AUDIO MODULE,Connector_PinHeader_2.54mm:PinHeader_2x06_P2.54mm_Vertical,,,,DNP / Header optional,
-L1,L,Resistor_SMD:R_0805_2012Metric,Abracon,AOTA-B201610S3R3-101-T,,BLOCKED: INDUCTOR FOOTPRINT UNVERIFIED,Polarized Abracon AOTA-B201610S3R3-101-T; source uses resistor 0805 footprint—DO NOT ORDER
+L1,3.3uH POL,eTiWi:Abracon_AOTA_B201610S3R3_101_T,Abracon,AOTA-B201610S3R3-101-T,,Requires orientation/layout review,Custom footprint from Abracon land pattern; dotted pad1 must map +1V1 per Raspberry Pi regulator reference
 R23,33Ω,Resistor_SMD:R_0402_1005Metric,Yageo,RC0402FR-0733RL,,Needs manufacturer footprint and JLC availability review,
 R29,1k,Resistor_SMD:R_0603_1608Metric,YAGEO,RT0603FRE101KL,,Needs manufacturer footprint and JLC availability review,
 R49,1k,Resistor_SMD:R_0603_1608Metric,YAGEO,RT0603FRE101KL,,Needs manufacturer footprint and JLC availability review,
