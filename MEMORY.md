@@ -47,3 +47,13 @@ Stand: 2026-11-23
 - Read `AGENTS.md`, `MEMORY.md` and `CHAT.md` at session start.
 - **Refresh MEMORY.md and CHAT.md before every commit.**
 - Do not copy WARBL GPL code or pretend a proposed KiCad file is validated.
+
+## KiCad first draft (2026-11-23)
+
+- Created `mini/hardware/kicad/eTiWi-mini.kicad_sch` as an editable
+  KiCad 9 source based on jenschr/RP2354A (MIT), with original license.
+- Added MPR121 with eight electrodes and recommended REXT/VREG components,
+  LPS28DFW pressure interface and 2x6 audio/header/filter.
+- Included custom solder-mask-covered electrode footprint.
+- **KiCad ERC NOT RUN, U3 footprint not assigned, no PCB**.
+  Manual electrical review and BOM recalc required before manufacturing.

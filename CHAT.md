@@ -46,3 +46,14 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
   and root/agent memory to reflect use of *external* amplifier/DAC modules.
 - Did not produce a validated KiCad electrical schematic or PCB. Next action:
   capture proper schematic in KiCad and verify ERC/DRC.
+
+## Update (2026-11-23): KiCad schematic draft
+
+- New native KiCad 9 schematic committed under mini/hardware/kicad.
+- MCU core/USB based on credited MIT RP2354A development board reference.
+- Added genuine sensor symbols, electrode symbols, I2C and pullup network,
+  pressure supply, RC audio filter, 2x6 external audio header.
+- Added touch footprint and reference source license.
+- Lexical s-expression and unique UUID checks only.
+- Next: open KiCad, inspect every net/pin, correct any ERC failures,
+  fix pressure sensor footprint, adjust full BOM then PCB layout.

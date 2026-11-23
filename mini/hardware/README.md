@@ -29,7 +29,7 @@
 - [Provisional pin plan](pin_plan.md).
 - [Universal audio interface](audio_interface.md).
 - [Candidate BOM](bom.csv) — **not a finalized procurement file**.
-- [KiCad folder](kicad/README.md) — filenames, electrical rules and checks.
+- [KiCad schematic](kicad/eTiWi-mini.kicad_sch) and [draft status](kicad/DESIGN_STATUS.md) — unverified electrical draft.
 
 ## Gate before manufacturing
 

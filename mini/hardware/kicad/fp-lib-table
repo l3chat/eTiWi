@@ -1,0 +1,1 @@
+(fp_lib_table (lib (name "eTiWi") (type "KiCad") (uri "${KIPRJMOD}/eTiWi.pretty") (options "") (descr "eTiWi touch electrodes")))

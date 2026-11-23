@@ -25,7 +25,7 @@ remain part of the broader eTiWi vision; see `../hardware/`.
 ## Status
 
 Architecture, pin plan, preliminary BOM and verification plan are documented.
-**No KiCad electrical schematic, routed PCB or firmware exists yet.**
+**An editable KiCad draft now exists, but KiCad ERC and PCB layout remain pending. No firmware exists yet.**
 This documentation is not manufacturing-ready.
 
 ## Files
@@ -38,7 +38,7 @@ This documentation is not manufacturing-ready.
   and clearly marked unresolved parts.
 - [Universal audio connector](hardware/audio_interface.md): safe module
   interface, hand-soldering options and provisional RC filter.
-- [KiCad project conventions](hardware/kicad/README.md).
+- [KiCad schematic and status](hardware/kicad/README.md).
 - [Firmware plan](firmware/README.md): Pico SDK / TinyUSB; **no source yet**.
 
 ## Steps
