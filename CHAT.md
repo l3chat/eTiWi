@@ -140,3 +140,9 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
   other critical footprints summarized in FOOTPRINT_AUDIT.md.
 - Applied annotation-only PDF readability changes and connected longer
   AUDIO_PWM_RAW label lead; awaiting GitHub Actions ERC/netlist/PDF review.
+
+## 2026-11-23: footprint drawing audit
+
+- Compared MCU QFN60, NXP QFN-COL20, ST LPS28DFW CCLGA-7, Abracon polarized inductor, KMR2, crystal, USB-C and header footprint definitions against available manufacturer drawings.
+- Fixed U3 top/bottom land length (0.55 to 1.00 mm), standard ST mask margin 0.05 mm, and central lid pad; retained clearly marked DRAFT status for factory validation.
+- Aligned BOM U3 footprint/MPN/notes; added FOOTPRINT_AUDIT.md with risk table, ST dimensions and manufacturing blockers. No PCB yet.

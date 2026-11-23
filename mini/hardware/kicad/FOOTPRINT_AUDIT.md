@@ -1,56 +1,78 @@
-# eTiWi Mini — component footprint engineering audit (2026-11-23)
+# eTiWi Mini — footprint audit, 2026-11-23
 
-This is a **component-library and datasheet cross-check**, NOT board DRC,
-assembly sign-off, supplier quote, or working-hardware validation. KiCad
-ERC does not check if physical pads are rotated or if manufacturer package
-dimensions have been followed.
+**Stage:** manufacturer drawing comparison and local CAD audit, **NOT** a
+PCB design-rule / assembly sign-off. There is no routed PCB.
 
-| Ref | Exact item / footprint | Audit outcome | Remaining gate |
+## Check results
+
+| Ref | Device, geometry | Source / decision | Status |
 | --- | --- | --- | --- |
-| U1 | Raspberry Pi RP2354A, QFN-60-1EP 7×7 mm, pitch 0.4 mm, EP 3.4×3.4 mm | Nominal package and footprint match RP2350A/RP2354A | Check EP solder-paste pattern, thermal vias, regulator placement |
-| U2 | NXP MPR121QR2, QFN-20 3×3 mm P0.4; KiCad UQFN-20_3x3mm_P0.4mm | Datasheet 1=IRQ, 2=SCL, 3=SDA, 4=ADDR, 5=VREG, 6=VSS, 7=REXT, 8..19=ELE0..11, 20=VDD match KiCad custom symbol. Footprint package nominated specifically for MPR121 | Verify actual pad width, fiducials, assembly orientation |
-| U3 | ST LPS28DFWTR, 2.8×2.8 mm ceramic CCLGA-7L | **Critical correction made:** old library located pad 1 left and pad 4 right; ST Figure 19 has pads 1/4 opposite top/bottom. Now pad 1 at top, pad 4 bottom, side pins mirrored for PCB top view; 7 lid pad at center | Prototype **draft**: validate footprint orientation against ST package mark and assembly drawing, stencil volume and pressure-port clearance |
-| J1 | Korean Hroparts TYPE-C-31-M-14, 16P plus shield, eTiWi local footprint | 16 electrical pad numbers, S1 shield and connector family match; JLCPCB C223907, Standard PCBA, high assembly difficulty; rated 1A | Compare board-edge/recess cutout and mounting orientation; USB ESD / VBUS protection is **not** validated |
-| L1 | Abracon AOTA-B201610S3R3-101-T polarized 3.3µH | Local copper lands nominal 1.0×1.6mm, 1.0mm spacing as manufacturer drawing | **Mandatory** pad 1 orientation and regulator loop layout versus Raspberry Pi hardware reference, otherwise startup risk |
-| U4 | AP2112K-3.3TRG1 / SOT-23-5 | Manufacturer family and KiCad package compatible | Verify pin1/enable/ground and copper thermal design |
-| RESET1, USBDEV1 | C&K KMR241G LFS / KiCad SW_Push_1P1T_NO_CK_KMR2 | Pad pattern family compatible | Cross-check selected procurement revision/rotations at PCB layout |
-| Y1 | Abracon ABM8-272-T3 / 3.2×2.5 4-pin SMD | Footprint nominal package consistent | Check grounded pads, load capacitors, crystal part exact CL and routing |
-| J2,J3,J4,J5 | Standard 2.54mm connectors | Pin counts/spacing are appropriate for hand soldering | Choice of optional mounting and actual physical package, remove oversized development headers if Mini is optimized |
-| TP1–TP8 | 8×12mm solder-mask-covered PCB copper pad | One electrical copper pad per touch electrode | Mechanical finger spacing and sensitivity test in real instrument |
-| R/C components | KiCad 0402/0603 SMD patterns | Nominal sizes standard | Select JLCPCB exact parts and check voltage/X7R derating, paste and PCBA side |
+| U1 | RP2354A, QFN-60-EP, 7 x 7 mm, 0.4 mm pitch, 3.4 x 3.4 EP | KiCad `QFN-60-1EP_7x7mm_P0.4mm_EP3.4x3.4mm`; package family confirmed against RP2350A/RP2354A datasheet | Nominal geometry consistent; actual copper EP/GND and vias require PCB review |
+| U2 | NXP MPR121QR2, 3 x 3 mm QFN-COL, 20 terminals, 0.4 mm pitch | NXP MPR121 datasheet pp. 23–25; `UQFN-20_3x3mm_P0.4mm` | Body/pitch matched; review terminal metallization/heel width and pin 1 against NXP COL package |
+| U3 | ST LPS28DFWTR, CCLGA-7L, 2.8 x 2.8 mm, six contacts + lid pad7 | ST DS13317 Fig. 3, Fig. 19; TN0018 pad/mask rules | **Corrected local pad widths and spacing**; DRAFT remains until stencil/solder mask verified |
+| L1 | Abracon AOTA-B201610S3R3-101-T, 2.0 x 1.6 mm, polarized, 3.3 µH | Abracon recommended 1.0 x 1.6 pads with 1.0 mm gap, polarity ink dot | Copper nominal matches; **dot/1V1/VREG_LX orientation critical** |
+| J1 | HRO TYPE-C-31-M-14 USB-C | Locally included jenschr/USB-C-Connectors footprint, 16 signal pads + 4 shield tabs | Supplier exact MPN and land pattern / ESD / orientation still require check |
+| RESET1, USBDEV1 | C&K KMR241G LFS | Standard KiCad `Button_Switch_SMD:SW_Push_1P1T_NO_CK_KMR2` | Plausible package match; pin mapping / chosen available SKU to be verified |
+| U4 | AP2112K-3.3, SOT-23-5 | KiCad `Package_TO_SOT_SMD:SOT-23-5` | Package class matched; pinout and thermal/VBUS budget at PCB review |
+| Y1 | Abracon ABM8 quartz, 3.2 x 2.5 mm | KiCad `Crystal_SMD_3225-4Pin_3.2x2.5mm` | Verify exact ordered crystal and load network |
+| J5 | 2x6 2.54 mm through-hole audio expansion pads | KiCad standard 2x6 PinHeader footprint | Fits easy hand soldering; header **not** fitted at factory |
+| TP1–TP8 | Copper electrode 8 x 12 mm | Local copper-only pad on F.Cu, F.Mask aperture absent | Functional geometry candidate; ergonomic tuning, shielding and board outline pending |
 
-## ST LPS28DFW detailed physical check
+## U3: corrected ST mechanical / electrical mapping
 
-ST datasheet Figure 3 and Figure 19 depict contacts 1=SDA, 2=SA0,
-3=SCL, 4=INT_DRDY, 5=GND, 6=VDD, 7=metal lid. The old custom
-footprint rotated the perimeter contact pattern in an incompatible manner.
-The revised footprint now arranges 1 TOP, 4 BOTTOM, 2/3 on one side and
-6/5 on the other; note that the datasheet figure is *bottom view* and
-the KiCad land pattern is drawn from the PCB *component side*.
+ST DS13317 (figures 3 and 19) draws package pads from **bottom**.
+The KiCad footprint is drawn as seen from **top of the board**.
+Thus the bottom view is mirrored so installed copper aligns properly:
 
-ST drawing: pad1/4 approx 1.40 × 0.35mm, pad2/3/5/6 about 0.90 × 0.35mm,
-and center lid about 0.90 × 0.90mm. In draft land pattern, perimeter lands
-are increased by 0.1mm in each planar dimension (TN0018 rule, gaps >200µm).
-Top-view orientation and exact solder stencil for this high-stress
-water-resistant package **still require human fabrication review**.
-Central pad7 is on GND, per ST recommendation.
+```text
+PCB TOP VIEW:
+        6     5
+   1       7       4
+        2     3
+```
 
-ST datasheet: https://www.st.com/resource/en/datasheet/lps28dfw.pdf
-ST mounting guide TN0018: https://www.st.com/resource/en/technical_note/CD00134799.pdf
+- Pads 1 / 4: 0.45 x 1.50 mm (side vertical pads)
+- Pads 2 / 3 / 5 / 6: 1.00 x 0.45 mm
+- Pad 7: 0.975 x 1.00 mm, connected to GND in current schematic
+- Body: 2.8 x 2.8 mm, max height ~2.1 mm
+- Mask margin: 0.05 mm (0.10 mm aperture enlargement per dimension)
+- Pad pitches and manufacturer tolerances need a PCB assembly audit.
 
-## Manufacturing prerequisites
+**The preceding local footprint mistakenly used 0.55 mm-long
+top/bottom copper pads** instead of approximately 0.90 mm package lands
+plus the TN0018 margin. It has been corrected. The relative pad numbers
+were consistent with the mirrored ST bottom view.
 
-1. Check J1 connector cutout and JLCPCB assembly/paste/rotation and protect
-   USB D+/D− with appropriate ESD before placing USB-C on the PCB.
-2. Check L1 polarity and regulated 1.1V switching-current return loop:
-   do NOT arbitrarily rotate the component.
-3. Confirm U3 pin1 marker orientation using top/bottom package views,
-   PCB top layer and JLCPCB pick-and-place file; no copper/vias near
-   pressure port; follow ST reflow guidance.
-4. Audit source KiCad project footprints versus actual JLCPCB BOM/CPL.
-5. Run PCB DRC after actual board is routed; there is **no PCB yet**.
+The datasheet explicitly permits grounding pad 7 or leaving it unconnected,
+but recommends physically soldering it to PCB; current electrical design
+grounds it.
 
-Sources: https://www.nxp.com/docs/en/data-sheet/MPR121.pdf
-https://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008280-DS-2-hardware-design-with-rp2350.pdf
-https://abracon.com/datasheets/AOTA-B201610S.pdf
-https://jlcpcb.com/partdetail/Korean_HropartsElec-TYPE_C_31_M14/C223907
+### Primary manufacturer references
+
+- ST DS13317 LPS28DFW, Fig. 3 (p.3), Fig. 19 (p.42):
+  https://www.st.com/resource/en/datasheet/lps28dfw.pdf
+- ST TN0018, §3.7 (p.12), LGA footprint and mask rules:
+  https://www.st.com/resource/en/technical_note/tn0018-surface-mounting-guidelines-for-mems-sensors--in-an-lga-package--stmicroelectronics.pdf
+- NXP MPR121 datasheet, pp.23–25:
+  https://www.nxp.com/docs/en/data-sheet/MPR121.pdf
+- Raspberry Pi RP2350 datasheet:
+  https://datasheets.raspberrypi.com/rp2350/rp2350-datasheet.pdf
+- Abracon AOTA-B201610S3R3-101-T:
+  https://cdn-reichelt.de/documents/datenblatt/A300/AOTA_B201610S3R3_101_T-3518993.pdf
+- C&K KMR2:
+  https://www.ckswitches.com/media/1479/kmr2.pdf
+
+## Manufacturing blockers before PCB / JLCPCB quote
+
+1. Independent orientation audit for U3 and L1 relative to actual pin1
+   and assembly rotations; validate solder paste aperture/stencil for U3.
+2. Select purchasable USB-C connector model and verify matched land pattern
+   and USB2 electrical routing/ESD.
+3. Verify MPR121 COL land pattern vs generic UQFN, and RP2354A exposed pad
+   solder mask/paste + ground via strategy.
+4. Determine mechanical placement, 8 touch pads and pressure port/moisture
+   management; check allowable board finish and solder mask.
+5. Final stocked LCSC choices for **every** part, BOM/CPL and PCBA service class.
+
+A clean KiCad schematic ERC is necessary but **not sufficient** for any
+of these. No `*.kicad_pcb`, DRC, Gerbers or CPL currently exists.

@@ -79,3 +79,7 @@ PCB layout and DRC. Do not submit schematic-only draft for PCB assembly.
   font while keeping electrical anchors, moved TP label fields outside tiny
   symbol outlines, separated audio R110/111 fields and extended the input
   PWM label wire for clearer PDF. Netlist/ERC recheck pending.
+
+## Footprint comparison 2026-11-23
+
+See [FOOTPRINT_AUDIT.md](FOOTPRINT_AUDIT.md). U3 LPS28DFW local footprint copper dimensions corrected to ST nominal drawing + TN0018 margin. Still *NOT manufacturing signed off*: requires verification of solder paste/stencil and assembly rotation, along with U1/QFN ground vias, U2 QFN-COL, USB-C exact MPN and L1 orientation.
