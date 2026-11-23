@@ -80,3 +80,12 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Corrected supply net to +3V3 after directly inspecting KiCad
   embedded `power:+3.3V` symbol pin name; previous +3.3V relabel
   was incorrect and has been superseded.
+
+## 2026-11-23: tablet preview / KiCad CI
+
+- Configured workflow `.github/workflows/mini-kicad-preview.yml` using
+  official KiCad 9 container; it attempts a native schematic PDF, netlist,
+  ERC report and later conditional PCB PDF/DRC, uploading results as artifact.
+- Created separate 3-page functional vector PDF for tablet in conversation.
+- Corrected +3V3 net name based on actual power symbol net pin.
+- No verified KiCad ERC pass and no PCB layout as of this entry.

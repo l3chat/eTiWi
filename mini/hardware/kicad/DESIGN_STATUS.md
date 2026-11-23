@@ -98,3 +98,14 @@ is +3.3V). Therefore the eight Mini supply labels must be **+3V3**, not
 +3.3V. I verified the embedded `(name "+3V3")` from the actual
 KiCad library symbol and restored these eight labels to +3V3.
 This correction supersedes the earlier claim that +3V3 was an error.
+
+## Current status of automated KiCad checks
+
+- GitHub workflow `.github/workflows/mini-kicad-preview.yml` was added
+  to run KiCad 9 via the official container, export PDF and netlist, run
+  ERC and upload outputs as GitHub Actions artifacts.
+- **At time of this note no completed run/individual ERC violation list
+  has been verified.** An ERC exit code of nonzero is written into the
+  artifact report; PDF export alone does not mean ERC passed.
+- When an actual PCB appears, the workflow contains a conditional
+  PDF plot and DRC report for its layers. No PCB file exists yet.

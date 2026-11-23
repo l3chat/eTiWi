@@ -28,3 +28,20 @@ Note: the inherited KiCad power symbol with library ID `power:+3.3V`
 has **pin net name `+3V3`**, so the sensor local labels intentionally
 use `+3V3`. Do not rename them to +3.3V without changing the
 underlying power symbol net definition.
+
+## Preview PDFs without KiCad (tablet / phone)
+
+A GitHub Actions workflow is defined in
+[`mini-kicad-preview.yml`](../../../.github/workflows/mini-kicad-preview.yml).
+It is configured to export a **native KiCad schematic PDF** and an ERC
+report when KiCad project files change or when the workflow is run manually.
+Navigate to **GitHub → Actions → eTiWi Mini KiCad PDF and ERC → run →
+Artifacts → etiwi-mini-kicad-previews** to obtain PDFs/reports.
+
+When an actual `eTiWi-mini.kicad_pcb` is added, the same workflow is
+configured to export a PCB PDF and DRC report, too. **No PCB exists yet**,
+and the CI workflow output has not yet been verified by a completed run.
+
+An independently prepared, three-page vector **functional electrical
+preview** is provided to the user through the ChatGPT conversation. It is
+not an exact KiCad graphical export and is not manufacturing approval.
