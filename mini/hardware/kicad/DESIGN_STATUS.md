@@ -83,3 +83,15 @@ PCB layout and DRC. Do not submit schematic-only draft for PCB assembly.
 ## Footprint comparison 2026-11-23
 
 See [FOOTPRINT_AUDIT.md](FOOTPRINT_AUDIT.md). U3 LPS28DFW local footprint copper dimensions corrected to ST nominal drawing + TN0018 margin. Still *NOT manufacturing signed off*: requires verification of solder paste/stencil and assembly rotation, along with U1/QFN ground vias, U2 QFN-COL, USB-C exact MPN and L1 orientation.
+
+## PDF layout polish (2026-11-23, controller A2)
+
+- Preserved the newer **A2 controller sheet** with physically doubled
+  symbol/pin spacing introduced in commit 1965a899; this is deliberate
+  rather than collapsing the page back to crowded A4.
+- Repositioned capacitor C39 label/value to match the **doubled
+  coordinates** on this sheet. Enlarged visible controller text modestly
+  (1.27mm to 1.50mm). This affects presentation only.
+- Hidden redundant FINGER# values on TP1–TP8; the TP# references and
+  ELE0–ELE7 net labels remain visible.
+- New KiCad PDF/ERC visual review and netlist comparison required.

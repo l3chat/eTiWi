@@ -21,7 +21,7 @@
 				(at 1.524 1.016 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -30,7 +30,7 @@
 				(at 1.524 -2.032 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -39,7 +39,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -47,7 +47,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -55,7 +55,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -64,7 +64,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -134,7 +134,7 @@
 				(at 0 -12.7 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -143,7 +143,7 @@
 				(at 0 -7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -151,7 +151,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -160,7 +160,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -169,7 +169,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -178,7 +178,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -205,14 +205,14 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -228,7 +228,7 @@
 				(at 10.16 11.43 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify right bottom)
 				)
@@ -237,7 +237,7 @@
 				(at 2.54 -11.43 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left top)
 				)
@@ -246,7 +246,7 @@
 				(at 2.54 -15.24 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left top)
 					(hide yes)
@@ -256,7 +256,7 @@
 				(at 5.08 -19.05 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left top)
 					(hide yes)
@@ -266,7 +266,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -275,7 +275,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -284,7 +284,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -403,14 +403,14 @@
 					(name "SDI"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -421,14 +421,14 @@
 					(name "CKI"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -439,14 +439,14 @@
 					(name "VDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -457,14 +457,14 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -475,14 +475,14 @@
 					(name "SDO"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -493,14 +493,14 @@
 					(name "CKO"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -522,7 +522,7 @@
 				(at 4.064 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -530,7 +530,7 @@
 				(at 0 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -538,7 +538,7 @@
 				(at -3.556 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -547,7 +547,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -556,7 +556,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -565,7 +565,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -574,7 +574,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -599,14 +599,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -617,14 +617,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -647,7 +647,7 @@
 				(at -2.54 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -655,7 +655,7 @@
 				(at 3.81 0 90)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -663,7 +663,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -672,7 +672,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -681,7 +681,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -690,7 +690,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -699,7 +699,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -761,14 +761,14 @@
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -779,14 +779,14 @@
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -806,7 +806,7 @@
 				(at 2.54 8.89 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -815,7 +815,7 @@
 				(at 2.54 5.08 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 					(hide yes)
@@ -825,7 +825,7 @@
 				(at -2.54 3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -834,7 +834,7 @@
 				(at 2.54 8.89 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -843,7 +843,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -888,7 +888,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -897,7 +897,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -994,14 +994,14 @@
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1012,14 +1012,14 @@
 					(name "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1030,14 +1030,14 @@
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1048,14 +1048,14 @@
 					(name "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1075,7 +1075,7 @@
 				(at 0 -7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1084,7 +1084,7 @@
 				(at 0 7.112 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -1092,7 +1092,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1101,7 +1101,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1110,7 +1110,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1119,7 +1119,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1170,14 +1170,14 @@
 					(name "+3V3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1199,7 +1199,7 @@
 				(at 1.27 5.08 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -1208,7 +1208,7 @@
 				(at 1.27 -5.08 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -1217,7 +1217,7 @@
 				(at 1.9304 -7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1226,7 +1226,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1235,7 +1235,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1244,7 +1244,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1253,7 +1253,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1291,14 +1291,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1309,14 +1309,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1340,7 +1340,7 @@
 				(at 0 3.81 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1349,7 +1349,7 @@
 				(at 0 7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -1357,7 +1357,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1366,7 +1366,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1375,7 +1375,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1384,7 +1384,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1396,14 +1396,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1441,7 +1441,7 @@
 				(at 0 -7.62 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1450,7 +1450,7 @@
 				(at 0 7.112 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -1458,7 +1458,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1467,7 +1467,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1476,7 +1476,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1485,7 +1485,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1535,14 +1535,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1565,7 +1565,7 @@
 				(at 2.54 5.08 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -1574,7 +1574,7 @@
 				(at 0 -3.048 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -1582,7 +1582,7 @@
 				(at 0 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1591,7 +1591,7 @@
 				(at 0 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1600,7 +1600,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1609,7 +1609,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1667,14 +1667,14 @@
 					(name "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1685,14 +1685,14 @@
 					(name "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1715,7 +1715,7 @@
 				(at 0.508 3.556 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -1724,7 +1724,7 @@
 				(at 0.508 -4.064 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -1733,7 +1733,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1742,7 +1742,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1751,7 +1751,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1760,7 +1760,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1769,7 +1769,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1807,14 +1807,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1825,14 +1825,14 @@
 					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -1851,7 +1851,7 @@
 				(at 0 44.45 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -1859,7 +1859,7 @@
 				(at 0 39.37 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -1867,7 +1867,7 @@
 				(at 7.62 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1876,7 +1876,7 @@
 				(at 7.62 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1885,7 +1885,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1894,7 +1894,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -1903,7 +1903,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -2206,14 +2206,14 @@
 					(name "SHIELD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "S1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2224,14 +2224,14 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "A1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2243,14 +2243,14 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "A12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2262,14 +2262,14 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "B1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2281,14 +2281,14 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "B12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2299,14 +2299,14 @@
 					(name "VBUS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "A4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2318,14 +2318,14 @@
 					(name "VBUS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "A9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2337,14 +2337,14 @@
 					(name "VBUS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "B4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2356,14 +2356,14 @@
 					(name "VBUS"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "B9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2374,14 +2374,14 @@
 					(name "CC1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "A5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2392,14 +2392,14 @@
 					(name "CC2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "B5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2410,14 +2410,14 @@
 					(name "D-"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "A7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2428,14 +2428,14 @@
 					(name "D-"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "B7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2446,14 +2446,14 @@
 					(name "D+"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "A6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2464,14 +2464,14 @@
 					(name "D+"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "B6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2490,7 +2490,7 @@
 				(at -10.16 11.43 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -2499,7 +2499,7 @@
 				(at 0 11.43 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -2508,7 +2508,7 @@
 				(at 0 16.51 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -2517,7 +2517,7 @@
 				(at 0 5.08 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -2526,7 +2526,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -2535,7 +2535,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -2544,7 +2544,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -2569,14 +2569,14 @@
 					(name "VIN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2587,14 +2587,14 @@
 					(name "EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2605,14 +2605,14 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2624,14 +2624,14 @@
 					(name "NC"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2642,14 +2642,14 @@
 					(name "VOUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -2669,7 +2669,7 @@
 				(at 0 40.64 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -2677,7 +2677,7 @@
 				(at 0 -40.64 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -2685,7 +2685,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -2694,7 +2694,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -2703,7 +2703,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -2712,7 +2712,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -2720,7 +2720,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -2729,7 +2729,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3086,14 +3086,14 @@
 					(name "Pin_1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3104,14 +3104,14 @@
 					(name "Pin_2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3122,14 +3122,14 @@
 					(name "Pin_3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3140,14 +3140,14 @@
 					(name "Pin_4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3158,14 +3158,14 @@
 					(name "Pin_5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3176,14 +3176,14 @@
 					(name "Pin_6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3194,14 +3194,14 @@
 					(name "Pin_7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3212,14 +3212,14 @@
 					(name "Pin_8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3230,14 +3230,14 @@
 					(name "Pin_9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3248,14 +3248,14 @@
 					(name "Pin_10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3266,14 +3266,14 @@
 					(name "Pin_11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3284,14 +3284,14 @@
 					(name "Pin_12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3302,14 +3302,14 @@
 					(name "Pin_13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3320,14 +3320,14 @@
 					(name "Pin_14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3338,14 +3338,14 @@
 					(name "Pin_15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3365,7 +3365,7 @@
 				(at 0 10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -3373,7 +3373,7 @@
 				(at 0 -10.16 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -3381,7 +3381,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3390,7 +3390,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3399,7 +3399,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3408,7 +3408,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 				)
 			)
@@ -3416,7 +3416,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3425,7 +3425,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3509,14 +3509,14 @@
 					(name "Pin_1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3527,14 +3527,14 @@
 					(name "Pin_2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3545,14 +3545,14 @@
 					(name "Pin_3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3568,7 +3568,7 @@
 				(at 35.052 94.488 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -3577,7 +3577,7 @@
 				(at 35.052 89.408 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(justify left)
 				)
@@ -3586,7 +3586,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3595,7 +3595,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3604,7 +3604,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3614,7 +3614,7 @@
 				(show_name)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3624,7 +3624,7 @@
 				(show_name)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3633,7 +3633,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3642,7 +3642,7 @@
 				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.5 1.5)
 					)
 					(hide yes)
 				)
@@ -3667,14 +3667,14 @@
 					(name "VREG_AVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "46"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3685,14 +3685,14 @@
 					(name "USB_OTP_VDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "53"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3703,14 +3703,14 @@
 					(name "QSPI_IOVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "54"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3721,14 +3721,14 @@
 					(name "VREG_PGND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "47"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3740,14 +3740,14 @@
 					(name "DVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "39"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3758,14 +3758,14 @@
 					(name "DVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3778,14 +3778,14 @@
 					(name "RUN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "26"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3796,14 +3796,14 @@
 					(name "USB_DM"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "51"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3814,14 +3814,14 @@
 					(name "USB_DP"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "52"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3832,14 +3832,14 @@
 					(name "~{QSPI_SS}"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "60"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3850,14 +3850,14 @@
 					(name "QSPI_SCLK"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "56"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3868,14 +3868,14 @@
 					(name "QSPI_SD0"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "57"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3886,14 +3886,14 @@
 					(name "QSPI_SD1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "59"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3904,14 +3904,14 @@
 					(name "QSPI_SD2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "58"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3922,14 +3922,14 @@
 					(name "QSPI_SD3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "55"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3940,14 +3940,14 @@
 					(name "XIN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "21"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3958,14 +3958,14 @@
 					(name "XOUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "22"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3976,14 +3976,14 @@
 					(name "SWCLK"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "24"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -3994,14 +3994,14 @@
 					(name "SWDIO"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "25"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4012,14 +4012,14 @@
 					(name "ADC_AVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "44"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4030,14 +4030,14 @@
 					(name "IOVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4049,14 +4049,14 @@
 					(name "IOVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4068,14 +4068,14 @@
 					(name "IOVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "20"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4087,14 +4087,14 @@
 					(name "IOVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "30"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4106,14 +4106,14 @@
 					(name "IOVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "38"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4125,14 +4125,14 @@
 					(name "IOVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "45"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4143,14 +4143,14 @@
 					(name "GND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "61"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4161,14 +4161,14 @@
 					(name "VREG_VIN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "49"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4179,14 +4179,14 @@
 					(name "VREG_LX"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "48"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4197,14 +4197,14 @@
 					(name "VREG_FB"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "50"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4216,14 +4216,14 @@
 					(name "DVDD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "23"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4234,14 +4234,14 @@
 					(name "GPIO0"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4252,14 +4252,14 @@
 					(name "GPIO1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4270,14 +4270,14 @@
 					(name "GPIO2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4288,14 +4288,14 @@
 					(name "GPIO3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4306,14 +4306,14 @@
 					(name "GPIO4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4324,14 +4324,14 @@
 					(name "GPIO5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4342,14 +4342,14 @@
 					(name "GPIO6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4360,14 +4360,14 @@
 					(name "GPIO7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4378,14 +4378,14 @@
 					(name "GPIO8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4396,14 +4396,14 @@
 					(name "GPIO9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4414,14 +4414,14 @@
 					(name "GPIO10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4432,14 +4432,14 @@
 					(name "GPIO11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4450,14 +4450,14 @@
 					(name "GPIO12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "16"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4468,14 +4468,14 @@
 					(name "GPIO13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "17"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4486,14 +4486,14 @@
 					(name "GPIO14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "18"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4504,14 +4504,14 @@
 					(name "GPIO15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "19"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4522,14 +4522,14 @@
 					(name "GPIO16"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "27"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4540,14 +4540,14 @@
 					(name "GPIO17"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "28"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4558,14 +4558,14 @@
 					(name "GPIO18"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "29"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4576,14 +4576,14 @@
 					(name "GPIO19"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "31"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4594,14 +4594,14 @@
 					(name "GPIO20"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "32"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4612,14 +4612,14 @@
 					(name "GPIO21"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "33"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4630,14 +4630,14 @@
 					(name "GPIO22"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "34"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4648,14 +4648,14 @@
 					(name "GPIO23"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "35"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4666,14 +4666,14 @@
 					(name "GPIO24"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "36"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4684,14 +4684,14 @@
 					(name "GPIO25"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "37"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4702,14 +4702,14 @@
 					(name "GPIO26/ADC0"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "40"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4720,14 +4720,14 @@
 					(name "GPIO27/ADC1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "41"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4738,14 +4738,14 @@
 					(name "GPIO28/ADC2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "42"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -4756,14 +4756,14 @@
 					(name "GPIO29/ADC3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
 					(number "43"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.5 1.5)
 							)
 						)
 					)
@@ -6918,7 +6918,7 @@
 		(at 177.8 175.26 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -6928,7 +6928,7 @@
 		(at 172.72 261.62 180)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify right bottom)
 		)
@@ -6938,7 +6938,7 @@
 		(at 167.64 281.94 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -6948,7 +6948,7 @@
 		(at 299.72 317.5 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -6958,7 +6958,7 @@
 		(at 236.22 142.24 90)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -6968,7 +6968,7 @@
 		(at 299.72 312.42 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -6978,7 +6978,7 @@
 		(at 167.64 276.86 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -6988,7 +6988,7 @@
 		(at 177.8 205.74 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -6998,7 +6998,7 @@
 		(at 177.8 195.58 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7008,7 +7008,7 @@
 		(at 177.8 220.98 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7018,7 +7018,7 @@
 		(at 177.8 226.06 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7028,7 +7028,7 @@
 		(at 167.64 312.42 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7038,7 +7038,7 @@
 		(at 167.64 266.7 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7048,7 +7048,7 @@
 		(at 101.6 220.98 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7058,7 +7058,7 @@
 		(at 167.64 317.5 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7068,7 +7068,7 @@
 		(at 177.8 231.14 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7078,7 +7078,7 @@
 		(at 167.64 307.34 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7088,7 +7088,7 @@
 		(at 429.26 167.64 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7098,7 +7098,7 @@
 		(at 177.8 190.5 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7108,7 +7108,7 @@
 		(at 325.12 220.98 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7118,7 +7118,7 @@
 		(at 167.64 297.18 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7128,7 +7128,7 @@
 		(at 177.8 210.82 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7138,7 +7138,7 @@
 		(at 167.64 287.02 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7148,7 +7148,7 @@
 		(at 325.12 215.9 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7158,7 +7158,7 @@
 		(at 177.8 215.9 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7168,7 +7168,7 @@
 		(at 177.8 180.34 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7178,7 +7178,7 @@
 		(at 177.8 200.66 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7188,7 +7188,7 @@
 		(at 177.8 185.42 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7198,7 +7198,7 @@
 		(at 177.8 170.18 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7208,7 +7208,7 @@
 		(at 167.64 302.26 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7218,7 +7218,7 @@
 		(at 167.64 292.1 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7228,7 +7228,7 @@
 		(at 167.64 271.78 0)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.5 1.5)
 			)
 			(justify left bottom)
 		)
@@ -7247,7 +7247,7 @@
 			(at 307.34 300.99 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7255,7 +7255,7 @@
 			(at 307.34 293.37 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7263,7 +7263,7 @@
 			(at 307.34 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7272,7 +7272,7 @@
 			(at 307.34 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7281,7 +7281,7 @@
 			(at 307.34 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7289,7 +7289,7 @@
 			(at 307.34 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7298,7 +7298,7 @@
 			(at 307.34 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7331,7 +7331,7 @@
 			(at 154.94 342.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7340,7 +7340,7 @@
 			(at 154.94 336.804 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7348,7 +7348,7 @@
 			(at 154.94 330.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7357,7 +7357,7 @@
 			(at 154.94 330.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7366,7 +7366,7 @@
 			(at 154.94 330.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7396,7 +7396,7 @@
 			(at 92.2334 223.52 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -7405,7 +7405,7 @@
 			(at 92.2334 228.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -7414,7 +7414,7 @@
 			(at 93.98 259.08 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left top)
 				(hide yes)
@@ -7424,7 +7424,7 @@
 			(at 91.44 262.89 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left top)
 				(hide yes)
@@ -7434,7 +7434,7 @@
 			(at 96.52 243.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7443,7 +7443,7 @@
 			(at 96.52 243.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7452,7 +7452,7 @@
 			(at 96.52 243.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7497,7 +7497,7 @@
 			(at 91.44 154.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7506,7 +7506,7 @@
 			(at 91.44 152.4 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7514,7 +7514,7 @@
 			(at 91.44 142.24 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7523,7 +7523,7 @@
 			(at 91.44 142.24 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7532,7 +7532,7 @@
 			(at 91.44 142.24 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7561,7 +7561,7 @@
 			(at 307.34 225.044 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7569,7 +7569,7 @@
 			(at 307.34 220.98 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7577,7 +7577,7 @@
 			(at 307.34 217.424 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7586,7 +7586,7 @@
 			(at 307.34 220.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7595,7 +7595,7 @@
 			(at 307.34 220.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7604,7 +7604,7 @@
 			(at 307.34 220.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7613,7 +7613,7 @@
 			(at 307.34 220.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7647,7 +7647,7 @@
 			(at 233.68 101.6 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7655,7 +7655,7 @@
 			(at 233.68 106.68 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7663,7 +7663,7 @@
 			(at 233.68 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7672,7 +7672,7 @@
 			(at 233.68 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7681,7 +7681,7 @@
 			(at 233.68 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7690,7 +7690,7 @@
 			(at 233.68 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7699,7 +7699,7 @@
 			(at 233.68 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7732,7 +7732,7 @@
 			(at 386.08 191.516 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7740,7 +7740,7 @@
 			(at 386.08 195.58 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7748,7 +7748,7 @@
 			(at 386.08 199.136 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7757,7 +7757,7 @@
 			(at 386.08 195.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7766,7 +7766,7 @@
 			(at 386.08 195.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7775,7 +7775,7 @@
 			(at 386.08 195.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7784,7 +7784,7 @@
 			(at 386.08 195.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7817,7 +7817,7 @@
 			(at 170.18 248.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7826,7 +7826,7 @@
 			(at 170.18 242.824 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7834,7 +7834,7 @@
 			(at 170.18 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7843,7 +7843,7 @@
 			(at 170.18 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7852,7 +7852,7 @@
 			(at 170.18 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7881,7 +7881,7 @@
 			(at 334.264 287.02 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7889,7 +7889,7 @@
 			(at 322.58 281.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 				(hide yes)
@@ -7899,7 +7899,7 @@
 			(at 323.85 287.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7908,7 +7908,7 @@
 			(at 318.77 281.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7917,7 +7917,7 @@
 			(at 327.66 284.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -7934,7 +7934,7 @@
 			(at 327.66 284.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7973,7 +7973,7 @@
 			(at 175.26 170.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -7982,7 +7982,7 @@
 			(at 175.26 144.78 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -7991,7 +7991,7 @@
 			(at 175.26 162.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8000,7 +8000,7 @@
 			(at 175.26 162.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8009,7 +8009,7 @@
 			(at 175.26 162.56 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8039,7 +8039,7 @@
 			(at 393.7 60.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -8048,7 +8048,7 @@
 			(at 393.7 66.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -8057,7 +8057,7 @@
 			(at 384.1496 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8066,7 +8066,7 @@
 			(at 386.08 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8075,7 +8075,7 @@
 			(at 386.08 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8083,7 +8083,7 @@
 			(at 386.08 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8092,7 +8092,7 @@
 			(at 386.08 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8125,7 +8125,7 @@
 			(at 307.34 211.836 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8133,7 +8133,7 @@
 			(at 307.34 215.9 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8141,7 +8141,7 @@
 			(at 307.34 219.456 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8150,7 +8150,7 @@
 			(at 307.34 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8159,7 +8159,7 @@
 			(at 307.34 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8168,7 +8168,7 @@
 			(at 307.34 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8177,7 +8177,7 @@
 			(at 307.34 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8211,7 +8211,7 @@
 			(at 292.1 60.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -8220,7 +8220,7 @@
 			(at 292.1 66.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -8229,7 +8229,7 @@
 			(at 286.4104 71.12 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8238,7 +8238,7 @@
 			(at 284.48 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8247,7 +8247,7 @@
 			(at 284.48 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8256,7 +8256,7 @@
 			(at 284.48 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8265,7 +8265,7 @@
 			(at 284.48 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8299,7 +8299,7 @@
 			(at 419.1 60.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -8308,7 +8308,7 @@
 			(at 419.1 66.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -8317,7 +8317,7 @@
 			(at 409.5496 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8326,7 +8326,7 @@
 			(at 411.48 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8335,7 +8335,7 @@
 			(at 411.48 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8343,7 +8343,7 @@
 			(at 411.48 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8352,7 +8352,7 @@
 			(at 411.48 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8386,7 +8386,7 @@
 			(at 116.84 107.95 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8395,7 +8395,7 @@
 			(at 116.84 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8403,7 +8403,7 @@
 			(at 116.84 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8412,7 +8412,7 @@
 			(at 116.84 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8421,7 +8421,7 @@
 			(at 116.84 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8452,7 +8452,7 @@
 			(at 91.44 119.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8461,7 +8461,7 @@
 			(at 91.44 101.6 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8469,7 +8469,7 @@
 			(at 91.44 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8478,7 +8478,7 @@
 			(at 91.44 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8487,7 +8487,7 @@
 			(at 91.44 111.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8517,7 +8517,7 @@
 			(at 251.46 134.62 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8526,7 +8526,7 @@
 			(at 251.46 109.22 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -8535,7 +8535,7 @@
 			(at 251.46 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8544,7 +8544,7 @@
 			(at 251.46 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8553,7 +8553,7 @@
 			(at 251.46 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8583,7 +8583,7 @@
 			(at 322.58 190.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8591,7 +8591,7 @@
 			(at 322.58 190.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8600,7 +8600,7 @@
 			(at 322.58 190.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8609,7 +8609,7 @@
 			(at 322.58 190.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8618,7 +8618,7 @@
 			(at 322.58 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8627,7 +8627,7 @@
 			(at 322.58 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8636,7 +8636,7 @@
 			(at 322.58 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8669,7 +8669,7 @@
 			(at 533.4 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8678,7 +8678,7 @@
 			(at 533.4 195.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8686,7 +8686,7 @@
 			(at 533.4 187.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8695,7 +8695,7 @@
 			(at 533.4 187.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8704,7 +8704,7 @@
 			(at 533.4 187.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8733,7 +8733,7 @@
 			(at 307.34 337.82 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8742,7 +8742,7 @@
 			(at 307.34 332.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8750,7 +8750,7 @@
 			(at 307.34 325.12 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8759,7 +8759,7 @@
 			(at 307.34 325.12 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8768,7 +8768,7 @@
 			(at 307.34 325.12 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8798,7 +8798,7 @@
 			(at 360.68 232.41 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8807,7 +8807,7 @@
 			(at 360.68 226.06 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8815,7 +8815,7 @@
 			(at 360.68 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8824,7 +8824,7 @@
 			(at 360.68 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8833,7 +8833,7 @@
 			(at 360.68 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8863,7 +8863,7 @@
 			(at 510.54 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8872,7 +8872,7 @@
 			(at 510.54 195.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8880,7 +8880,7 @@
 			(at 510.54 187.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8889,7 +8889,7 @@
 			(at 510.54 187.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8898,7 +8898,7 @@
 			(at 510.54 187.96 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8927,7 +8927,7 @@
 			(at 360.68 251.46 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8936,7 +8936,7 @@
 			(at 360.68 245.364 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8944,7 +8944,7 @@
 			(at 360.68 238.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8953,7 +8953,7 @@
 			(at 360.68 238.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -8962,7 +8962,7 @@
 			(at 360.68 238.76 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -8992,7 +8992,7 @@
 			(at 355.6 269.24 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9000,7 +9000,7 @@
 			(at 362.204 274.32 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9008,7 +9008,7 @@
 			(at 355.6 276.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9017,7 +9017,7 @@
 			(at 355.6 276.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9026,7 +9026,7 @@
 			(at 355.6 276.86 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9034,7 +9034,7 @@
 			(at 355.6 287.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9043,7 +9043,7 @@
 			(at 355.6 287.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9077,7 +9077,7 @@
 			(at 520.7 60.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -9086,7 +9086,7 @@
 			(at 520.7 66.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -9095,7 +9095,7 @@
 			(at 511.1496 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9104,7 +9104,7 @@
 			(at 513.08 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9113,7 +9113,7 @@
 			(at 513.08 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9121,7 +9121,7 @@
 			(at 513.08 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9130,7 +9130,7 @@
 			(at 513.08 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9164,7 +9164,7 @@
 			(at 149.86 124.4598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -9173,7 +9173,7 @@
 			(at 149.86 129.5398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -9182,7 +9182,7 @@
 			(at 140.3096 119.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9191,7 +9191,7 @@
 			(at 142.24 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9200,7 +9200,7 @@
 			(at 142.24 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9208,7 +9208,7 @@
 			(at 142.24 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9217,7 +9217,7 @@
 			(at 142.24 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9251,7 +9251,7 @@
 			(at 403.86 163.83 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9260,7 +9260,7 @@
 			(at 403.86 157.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9268,7 +9268,7 @@
 			(at 403.86 167.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9277,7 +9277,7 @@
 			(at 403.86 167.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9286,7 +9286,7 @@
 			(at 403.86 167.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9317,7 +9317,7 @@
 			(at 99.06 124.4598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -9326,7 +9326,7 @@
 			(at 99.06 129.5398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -9335,7 +9335,7 @@
 			(at 93.3704 134.62 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9344,7 +9344,7 @@
 			(at 91.44 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9353,7 +9353,7 @@
 			(at 91.44 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9362,7 +9362,7 @@
 			(at 91.44 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9371,7 +9371,7 @@
 			(at 91.44 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9404,7 +9404,7 @@
 			(at 322.58 239.776 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9412,7 +9412,7 @@
 			(at 322.58 239.776 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9421,7 +9421,7 @@
 			(at 322.58 226.06 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9430,7 +9430,7 @@
 			(at 322.58 226.06 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9439,7 +9439,7 @@
 			(at 322.58 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9448,7 +9448,7 @@
 			(at 322.58 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9457,7 +9457,7 @@
 			(at 322.58 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9490,7 +9490,7 @@
 			(at 360.68 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9499,7 +9499,7 @@
 			(at 360.68 209.804 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9507,7 +9507,7 @@
 			(at 360.68 203.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9516,7 +9516,7 @@
 			(at 360.68 203.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9525,7 +9525,7 @@
 			(at 360.68 203.2 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9556,7 +9556,7 @@
 			(at 457.2 213.3598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -9565,7 +9565,7 @@
 			(at 457.2 218.4398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -9574,7 +9574,7 @@
 			(at 426.72 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9583,7 +9583,7 @@
 			(at 426.72 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9592,7 +9592,7 @@
 			(at 434.34 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9601,7 +9601,7 @@
 			(at 434.34 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9610,7 +9610,7 @@
 			(at 434.34 215.9 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9682,7 +9682,7 @@
 			(at 533.4 175.26 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9691,7 +9691,7 @@
 			(at 533.4 149.86 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -9700,7 +9700,7 @@
 			(at 533.4 167.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9709,7 +9709,7 @@
 			(at 533.4 167.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9718,7 +9718,7 @@
 			(at 533.4 167.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9748,7 +9748,7 @@
 			(at 495.3 60.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -9757,7 +9757,7 @@
 			(at 495.3 66.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -9766,7 +9766,7 @@
 			(at 485.7496 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9775,7 +9775,7 @@
 			(at 487.68 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9784,7 +9784,7 @@
 			(at 487.68 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9792,7 +9792,7 @@
 			(at 487.68 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9801,7 +9801,7 @@
 			(at 487.68 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9835,7 +9835,7 @@
 			(at 355.6 304.8 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9843,7 +9843,7 @@
 			(at 362.204 299.72 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9851,7 +9851,7 @@
 			(at 355.6 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9860,7 +9860,7 @@
 			(at 355.6 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9869,7 +9869,7 @@
 			(at 355.6 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9877,7 +9877,7 @@
 			(at 355.6 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9886,7 +9886,7 @@
 			(at 355.6 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9920,7 +9920,7 @@
 			(at 510.54 156.4304 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9928,7 +9928,7 @@
 			(at 510.54 161.5042 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9936,7 +9936,7 @@
 			(at 510.54 156.21 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9945,7 +9945,7 @@
 			(at 510.54 167.64 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9954,7 +9954,7 @@
 			(at 510.54 172.72 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -9962,7 +9962,7 @@
 			(at 510.54 172.72 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -9971,7 +9971,7 @@
 			(at 510.54 172.72 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10014,7 +10014,7 @@
 			(at 342.9 60.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10023,7 +10023,7 @@
 			(at 342.9 66.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10032,7 +10032,7 @@
 			(at 333.3496 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10041,7 +10041,7 @@
 			(at 335.28 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10050,7 +10050,7 @@
 			(at 335.28 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10058,7 +10058,7 @@
 			(at 335.28 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10067,7 +10067,7 @@
 			(at 335.28 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10100,7 +10100,7 @@
 			(at 386.08 204.724 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10108,7 +10108,7 @@
 			(at 386.08 200.66 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10116,7 +10116,7 @@
 			(at 386.08 197.104 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10125,7 +10125,7 @@
 			(at 386.08 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10134,7 +10134,7 @@
 			(at 386.08 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10143,7 +10143,7 @@
 			(at 386.08 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10152,7 +10152,7 @@
 			(at 386.08 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10185,7 +10185,7 @@
 			(at 342.9 240.03 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10193,7 +10193,7 @@
 			(at 342.9 232.41 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10201,7 +10201,7 @@
 			(at 342.9 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10210,7 +10210,7 @@
 			(at 342.9 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10219,7 +10219,7 @@
 			(at 342.9 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10227,7 +10227,7 @@
 			(at 342.9 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10236,7 +10236,7 @@
 			(at 342.9 236.22 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10270,7 +10270,7 @@
 			(at 153.67 154.94 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10278,7 +10278,7 @@
 			(at 153.67 160.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10286,7 +10286,7 @@
 			(at 152.4 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10295,7 +10295,7 @@
 			(at 152.4 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10304,7 +10304,7 @@
 			(at 152.4 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10313,7 +10313,7 @@
 			(at 152.4 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10322,7 +10322,7 @@
 			(at 152.4 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10395,7 +10395,7 @@
 			(at 541.02 177.7998 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10404,7 +10404,7 @@
 			(at 541.02 182.8798 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10413,7 +10413,7 @@
 			(at 531.4696 172.72 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10422,7 +10422,7 @@
 			(at 533.4 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10431,7 +10431,7 @@
 			(at 533.4 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10439,7 +10439,7 @@
 			(at 533.4 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10448,7 +10448,7 @@
 			(at 533.4 180.34 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10481,7 +10481,7 @@
 			(at 330.2 124.46 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10490,7 +10490,7 @@
 			(at 330.2 99.06 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10499,7 +10499,7 @@
 			(at 330.2 116.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10508,7 +10508,7 @@
 			(at 330.2 116.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10517,7 +10517,7 @@
 			(at 330.2 116.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10547,7 +10547,7 @@
 			(at 317.5 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10556,7 +10556,7 @@
 			(at 313.944 291.592 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10565,7 +10565,7 @@
 			(at 317.5 284.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10574,7 +10574,7 @@
 			(at 317.5 284.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10583,7 +10583,7 @@
 			(at 317.5 284.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10613,7 +10613,7 @@
 			(at 378.46 287.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10622,7 +10622,7 @@
 			(at 370.84 287.02 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10631,7 +10631,7 @@
 			(at 365.76 287.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10640,7 +10640,7 @@
 			(at 365.76 287.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10649,7 +10649,7 @@
 			(at 365.76 287.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10679,7 +10679,7 @@
 			(at 444.5 60.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10688,7 +10688,7 @@
 			(at 444.5 66.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10697,7 +10697,7 @@
 			(at 434.9496 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10706,7 +10706,7 @@
 			(at 436.88 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10715,7 +10715,7 @@
 			(at 436.88 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10723,7 +10723,7 @@
 			(at 436.88 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10732,7 +10732,7 @@
 			(at 436.88 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10766,7 +10766,7 @@
 			(at 143.51 246.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10774,7 +10774,7 @@
 			(at 143.51 251.46 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10782,7 +10782,7 @@
 			(at 142.24 292.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10791,7 +10791,7 @@
 			(at 142.24 292.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10800,7 +10800,7 @@
 			(at 142.24 292.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10809,7 +10809,7 @@
 			(at 142.24 292.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10818,7 +10818,7 @@
 			(at 142.24 292.1 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10891,7 +10891,7 @@
 			(at 317.5 60.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10900,7 +10900,7 @@
 			(at 317.5 66.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -10909,7 +10909,7 @@
 			(at 307.9496 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10918,7 +10918,7 @@
 			(at 309.88 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10927,7 +10927,7 @@
 			(at 309.88 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10935,7 +10935,7 @@
 			(at 309.88 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10944,7 +10944,7 @@
 			(at 309.88 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10978,7 +10978,7 @@
 			(at 281.94 123.19 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -10987,7 +10987,7 @@
 			(at 281.94 116.84 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -10995,7 +10995,7 @@
 			(at 281.94 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11004,7 +11004,7 @@
 			(at 281.94 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11013,7 +11013,7 @@
 			(at 281.94 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11044,7 +11044,7 @@
 			(at 322.58 314.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -11053,7 +11053,7 @@
 			(at 322.58 320.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -11062,7 +11062,7 @@
 			(at 320.04 317.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11071,7 +11071,7 @@
 			(at 320.04 317.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11080,7 +11080,7 @@
 			(at 320.04 317.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11089,7 +11089,7 @@
 			(at 320.04 317.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11098,7 +11098,7 @@
 			(at 320.04 317.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11135,7 +11135,7 @@
 			(at 124.46 124.4598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -11144,7 +11144,7 @@
 			(at 124.46 129.5398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -11153,7 +11153,7 @@
 			(at 114.9096 119.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11162,7 +11162,7 @@
 			(at 116.84 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11171,7 +11171,7 @@
 			(at 116.84 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -11179,7 +11179,7 @@
 			(at 116.84 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11188,7 +11188,7 @@
 			(at 116.84 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11222,7 +11222,7 @@
 			(at 309.88 137.1598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -11231,7 +11231,7 @@
 			(at 309.88 142.2398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify left)
 			)
@@ -11240,7 +11240,7 @@
 			(at 304.1904 147.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11249,7 +11249,7 @@
 			(at 302.26 139.7 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11258,7 +11258,7 @@
 			(at 302.26 139.7 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11267,7 +11267,7 @@
 			(at 302.26 139.7 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11276,7 +11276,7 @@
 			(at 302.26 139.7 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11307,19 +11307,19 @@
 		(dnp no)
 		(uuid "bd7fd34b-3f4f-497f-b153-575dd9489f29")
 		(property "Reference" "C39"
-			(at 235.585 30.4799 0)
+			(at 471.17 60.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 235.585 33.0199 0)
+			(at 471.17 66.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -11328,7 +11328,7 @@
 			(at 464.2104 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11337,7 +11337,7 @@
 			(at 462.28 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11346,7 +11346,7 @@
 			(at 462.28 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -11354,7 +11354,7 @@
 			(at 462.28 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11363,7 +11363,7 @@
 			(at 462.28 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11396,7 +11396,7 @@
 			(at 167.64 264.16 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11405,7 +11405,7 @@
 			(at 170.688 248.92 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -11414,7 +11414,7 @@
 			(at 167.64 256.54 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11423,7 +11423,7 @@
 			(at 167.64 256.54 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11432,7 +11432,7 @@
 			(at 167.64 256.54 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -11462,7 +11462,7 @@
 			(at 320.04 114.3 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -11470,7 +11470,7 @@
 			(at 320.04 119.38 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -11478,7 +11478,7 @@
 			(at 320.04 130.556 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11487,7 +11487,7 @@
 			(at 320.04 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11496,7 +11496,7 @@
 			(at 320.04 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11505,7 +11505,7 @@
 			(at 320.04 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11514,7 +11514,7 @@
 			(at 320.04 127 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11548,7 +11548,7 @@
 			(at 167.64 340.36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11557,7 +11557,7 @@
 			(at 167.64 322.58 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -11565,7 +11565,7 @@
 			(at 167.64 332.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11574,7 +11574,7 @@
 			(at 167.64 332.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11583,7 +11583,7 @@
 			(at 167.64 332.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11613,7 +11613,7 @@
 			(at 284.48 91.44 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11622,7 +11622,7 @@
 			(at 284.48 88.9 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -11630,7 +11630,7 @@
 			(at 284.48 78.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11639,7 +11639,7 @@
 			(at 284.48 78.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11648,7 +11648,7 @@
 			(at 284.48 78.74 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -11679,7 +11679,7 @@
 			(at 257.6962 335.28 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -11688,7 +11688,7 @@
 			(at 257.6962 340.36 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -11697,7 +11697,7 @@
 			(at 246.38 246.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11706,7 +11706,7 @@
 			(at 246.38 246.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11715,7 +11715,7 @@
 			(at 246.38 246.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11725,7 +11725,7 @@
 			(show_name yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11735,7 +11735,7 @@
 			(show_name yes)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11744,7 +11744,7 @@
 			(at 246.38 246.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11753,7 +11753,7 @@
 			(at 246.38 246.38 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11964,7 +11964,7 @@
 			(at 340.36 297.18 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11973,7 +11973,7 @@
 			(at 336.804 291.592 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -11982,7 +11982,7 @@
 			(at 340.36 284.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -11991,7 +11991,7 @@
 			(at 340.36 284.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12000,7 +12000,7 @@
 			(at 340.36 284.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12031,7 +12031,7 @@
 			(at 248.92 360.68 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12040,7 +12040,7 @@
 			(at 248.92 358.14 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12048,7 +12048,7 @@
 			(at 248.92 347.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12057,7 +12057,7 @@
 			(at 248.92 347.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12066,7 +12066,7 @@
 			(at 248.92 347.98 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12095,7 +12095,7 @@
 			(at 342.9 204.47 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12103,7 +12103,7 @@
 			(at 342.9 196.85 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12111,7 +12111,7 @@
 			(at 342.9 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12120,7 +12120,7 @@
 			(at 342.9 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12129,7 +12129,7 @@
 			(at 342.9 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12137,7 +12137,7 @@
 			(at 342.9 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12146,7 +12146,7 @@
 			(at 342.9 200.66 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12179,7 +12179,7 @@
 			(at 96.52 271.78 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12188,7 +12188,7 @@
 			(at 96.52 265.684 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12196,7 +12196,7 @@
 			(at 96.52 259.08 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12205,7 +12205,7 @@
 			(at 96.52 259.08 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12214,7 +12214,7 @@
 			(at 96.52 259.08 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12243,7 +12243,7 @@
 			(at 302.26 160.02 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12252,7 +12252,7 @@
 			(at 302.26 157.48 90)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12260,7 +12260,7 @@
 			(at 302.26 147.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12269,7 +12269,7 @@
 			(at 302.26 147.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12278,7 +12278,7 @@
 			(at 302.26 147.32 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12308,7 +12308,7 @@
 			(at 368.3 60.9598 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -12317,7 +12317,7 @@
 			(at 368.3 66.0398 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(justify right)
 			)
@@ -12326,7 +12326,7 @@
 			(at 358.7496 55.88 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12335,7 +12335,7 @@
 			(at 360.68 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12344,7 +12344,7 @@
 			(at 360.68 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12352,7 +12352,7 @@
 			(at 360.68 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12361,7 +12361,7 @@
 			(at 360.68 63.5 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12394,7 +12394,7 @@
 			(at 434.34 284.48 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12403,7 +12403,7 @@
 			(at 434.34 279.4 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12411,7 +12411,7 @@
 			(at 434.34 271.78 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12420,7 +12420,7 @@
 			(at 434.34 271.78 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 				(hide yes)
 			)
@@ -12429,7 +12429,7 @@
 			(at 434.34 271.78 0)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1.5 1.5)
 				)
 			)
 		)
@@ -12445,8 +12445,8 @@
 			)
 		)
 	)
-(text "01  MCU / USB-C / 3.3V power / regulator / debugging" (at 45.72 33.02 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bd009b00-6d75-4b13-8731-000000009001"))
-(text "Reference: jenschr/RP2354A, MIT. Review polarized L1 and USB data pair." (at 45.72 43.18 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bd009b00-6d75-4b13-8731-000000009002"))
+(text "01  MCU / USB-C / 3.3V power / regulator / debugging" (at 45.72 33.02 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "bd009b00-6d75-4b13-8731-000000009001"))
+(text "Reference: jenschr/RP2354A, MIT. Review polarized L1 and USB data pair." (at 45.72 43.18 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "bd009b00-6d75-4b13-8731-000000009002"))
 (sheet_instances (path "/75796f0e-c7bb-4022-b2fb-227ab57b0aaa/bd009b00-6d75-4b13-8731-000000001101" (page "2")))
 (embedded_fonts no)
 )

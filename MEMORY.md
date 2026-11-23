@@ -108,3 +108,5 @@ Stand: 2026-11-23
 - 2026-11-23 footprint/PDF audit: ST LPS28DFW 7L library had physically wrong pad orientation (not visible to ERC); corrected 1 top, 4 bottom, side pads and central lid per ST DS13317/TN0018, still engineering review for assembly. MPR121 custom symbol pin numbering matches NXP. Added manufacturer footprint audit report. Improved cap C39, GPIO labels, TP1–TP8 annotation and analog audio filter layout in native KiCad sheets; ERC and PDF rerun required.
 
 - 2026-11-23 footprint check: ST LPS28DFW CCLGA corrected top/bottom pad dimensions (0.55 -> 1.00 mm on pads 2/3/5/6) per ST DS13317 Fig19 and TN0018. Pad numbering follows PCB TOP-VIEW mirrored relative ST bottom-view; lid pad7 GND, solder. Still mechanical/assembly verification required. See FOOTPRINT_AUDIT.md.
+
+- 2026-11-23 PDF cosmetic fix after concurrent A2 controller refactor: moved C39 ref/value fields to scaled sheet coordinates, increased controller text 1.27→1.50 mm and hid redundant FINGER# labels on electrodes. Electrical connections unchanged. Await KiCad PDF/ERC verification.

@@ -146,3 +146,10 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Compared MCU QFN60, NXP QFN-COL20, ST LPS28DFW CCLGA-7, Abracon polarized inductor, KMR2, crystal, USB-C and header footprint definitions against available manufacturer drawings.
 - Fixed U3 top/bottom land length (0.55 to 1.00 mm), standard ST mask margin 0.05 mm, and central lid pad; retained clearly marked DRAFT status for factory validation.
 - Aligned BOM U3 footprint/MPN/notes; added FOOTPRINT_AUDIT.md with risk table, ST dimensions and manufacturing blockers. No PCB yet.
+
+## 2026-11-23: schematic text cleanup, A2 revision
+
+- Reconciled with latest A2 controller source: corrected C39 field positions
+  to scaled coordinates, made small text more legible.
+- Hidden 8 extra FINGER value fields from touch-pad symbols; TP references remain.
+- No intended wiring change. New GitHub Actions export/ERC to verify.
