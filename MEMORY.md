@@ -125,3 +125,5 @@ Stand: 2026-11-23
   remain assembly verification gates; no PCB created.
 
 - 2026-11-23 regulator audit: found AP2112K U4 VIN had zero local input bypass; C2 VOUT only 100nF. Changed C2 to 1uF X5R 10V 0603 and added C201 1uF VBUS/GND (JLC C26413). Future PCB must place both immediately by U4. Updated CI to ERC --exit-code-violations, pending actual post-commit validation.
+
+- 2026-11-23: Critical structural bug: cloned C201 had eight malformed `((at ...)` properties and KiCad silently omitted C201 from netlist while ERC still 0/0. Repaired all eight to `(at ...)`, structurally balanced the whole schematic, and added a new CI netlist gate (`mini/hardware/kicad/ci/check_netlist.py`) that tests C201/C2 rails, RP regulator, USB CC, I2C pins and eight electrodes. Require CI validation before PCB.

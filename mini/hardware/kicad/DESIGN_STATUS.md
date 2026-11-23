@@ -148,3 +148,7 @@ C2 1uF +3V3/GND, Samsung CL10A105KP8NNNC 0603, JLCPCB C26413.
 The KiCad ERC is now invoked with `--exit-code-violations` so warnings/errors
 make GitHub Actions red while reports are still uploaded. Actual CI/netlist
 pass must be checked after this commit. See `FOOTPRINT_AUDIT.md`.
+
+## 2026-11-23: Parser/netlist reliability fix
+
+A previous draft exported ERC 0/0 but omitted newly created C201 because its cloned KiCad S-expression had eight `((at ...)` errors. **Never equate ERC 0/0 with a complete schematic.** All eight were corrected, S-expression is balanced, and a new CI gate independently verifies that C201 and critical device pins actually exist on intended nets in the exported KiCad netlist. Successful post-commit CI validation is required.

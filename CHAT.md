@@ -184,3 +184,8 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Verified RP2354A pin map, L1 polarity dot should be on +1V1 side according to Raspberry Pi guide Figure 4, NXP MPR121 COL package, ST LPS28DFW package and JLC supplier catalog.
 - Discovered real missing U4 input capacitor and only 100nF U4 output. Corrected C2 and added C201 1uF 0603 input, datasheet-matched Samsung C26413.
 - Updated BOM / FOOTPRINT_AUDIT. KiCad ERC now CI-fatal on warnings/errors; native ERC and netlist require rerun after this change.
+
+## 2026-11-23 KiCad parser omission and netlist gate
+
+- New 1uF C201 did not appear in actual KiCad netlist even though the previous ERC returned zero. Diagnosed eight malformed nested `(at ...)` expressions introduced while duplicating the component.
+- Corrected eight `((at)` tokens, validated S-expression balance, added executable `ci/check_netlist.py`, and wired it into GitHub Actions after netlist export. If any required chip supply/pad/USB pin is missing, the workflow fails before ERC. Need latest CI check.

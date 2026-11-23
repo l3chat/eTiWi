@@ -12450,7 +12450,7 @@
 (text "Reference: jenschr/RP2354A, MIT. Review polarized L1 and USB data pair." (at 45.72 43.18 0) (effects (font (size 1.5 1.5)) (justify left bottom)) (uuid "bd009b00-6d75-4b13-8731-000000009002"))
 (symbol
 		(lib_id "Device:C_Diagram2x")
-		((at 558.8 205.74 180)
+		(at 558.8 205.74 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12459,7 +12459,7 @@
 		(fields_autoplaced yes)
 		(uuid "a907c661-7e11-443c-ad62-002000000001")
 		(property "Reference" "C201"
-			((at 566.42 203.1998 0)
+			(at 566.42 203.1998 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -12468,7 +12468,7 @@
 			)
 		)
 		(property "Value" "1uF 10V X5R"
-			((at 566.42 208.2798 0)
+			(at 566.42 208.2798 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -12477,7 +12477,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			((at 556.8696 198.12 0)
+			(at 556.8696 198.12 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -12486,7 +12486,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			((at 558.8 205.74 0)
+			(at 558.8 205.74 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -12495,7 +12495,7 @@
 			)
 		)
 		(property "Description" ""
-			((at 558.8 205.74 0)
+			(at 558.8 205.74 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -12503,7 +12503,7 @@
 			)
 		)
 		(property "MFGR" "Samsung Electro-Mechanics"
-			((at 558.8 205.74 0)
+			(at 558.8 205.74 0)
 			(effects
 				(font
 					(size 1.5 1.5)
@@ -12512,7 +12512,7 @@
 			)
 		)
 		(property "MPN" "CL10A105KP8NNNC"
-			((at 558.8 205.74 0)
+			(at 558.8 205.74 0)
 			(effects
 				(font
 					(size 1.5 1.5)
