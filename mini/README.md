@@ -25,7 +25,7 @@ remain part of the broader eTiWi vision; see `../hardware/`.
 ## Status
 
 Architecture, pin plan, preliminary BOM and verification plan are documented.
-**An editable KiCad draft now exists, but KiCad ERC and PCB layout remain pending. No firmware exists yet.**
+**KiCad V0.2 includes an editable four-sheet schematic. ERC passed with 0 errors and 0 warnings in GitHub Actions (2026-11-23). PCB layout and firmware remain pending.**
 This documentation is not manufacturing-ready.
 
 ## Files
@@ -34,7 +34,7 @@ This documentation is not manufacturing-ready.
 - [Bring-up tests](docs/bringup.md): measurable first-board checks.
 - [Hardware overview](hardware/README.md).
 - [Pin allocation](hardware/pin_plan.md): provisional GPIO/I2C/USB plan.
-- [Preliminary JLCPCB BOM](hardware/bom.csv): catalog references
+- [Draft schematic BOM](hardware/bom.csv): catalog references
   and clearly marked unresolved parts.
 - [Universal audio connector](hardware/audio_interface.md): safe module
   interface, hand-soldering options and provisional RC filter.
@@ -45,8 +45,8 @@ This documentation is not manufacturing-ready.
 
 1. Verify all part pinouts, RP2354A power/clock reference design, packages,
    speaker path and supply budget from current manufacturer datasheets.
-2. Create actual KiCad schematic + library symbols + matching footprints.
-3. Run ERC, review netlist, route PCB, run DRC, prepare Gerbers/BOM/CPL.
+2. **Completed:** create four-page KiCad schematic, resolve symbol libraries and run a clean ERC.
+3. **Next:** verify manufacturer footprints and parts, route PCB, run DRC, prepare Gerbers/BOM/CPL.
 4. Bring up USB, sensors and first MIDI note events (without audio amplifier).
 5. Assemble/test PWM/PDM mono audio via an external appropriately rated
    amplifier, or I2S via an external DAC, using the audio header.

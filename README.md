@@ -28,5 +28,5 @@ The original VS1053B, battery-powered design remains a longer-term goal.
 
 The project is currently in early hardware and firmware planning.
 Architecture notes, power/audio/interface decisions, and parts candidates are
-being consolidated before schematic capture, PCB work, and firmware
-implementation.
+being consolidated. Mini V0.2 now has a four-page KiCad schematic with a
+clean ERC report; PCB work and firmware implementation have not begun.

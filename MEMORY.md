@@ -30,7 +30,7 @@ Stand: 2026-11-23
   amplifier or I2S DAC/amp module using a correctly wired cable.
   Review USB power budget before driving an 8-ohm speaker.
 - No NiMH, VS1053B, OLED or battery charger in Mini V0.1.
-- No KiCad schematic, fabricated PCB or working firmware exists yet.
+- KiCad Mini V0.2 has a four-page editable schematic and clean ERC; no PCB or working firmware exists yet.
 - Preliminary GPIO mapping and provisional JLCPCB catalog BOM in `mini/`.
 
 ## Remaining Design Decisions and Verification
@@ -95,3 +95,10 @@ Stand: 2026-11-23
 - Refactored monolithic KiCad Mini draft into 4-page A4 hierarchy: overview plus MCU/USB/power, sensors, audio sheets. Added project-local embedded symbol library tables and grid alignment; next confirm with KiCad 9 ERC and PDF. Source reference history preserved in git.
 
 - Visual PDF QA 2026-11-23: shrunk/relocated root hierarchy boxes away from A4 title block, shifted pressure U3/C103 group and attached nets upward 25.4mm, changed J5 from DNP-red-X to BOM-excluded fitted electrical symbol (PCB through-hole pads still provided, no header factory installed). KiCad ERC recheck pending for this cleanup.
+
+## Current verified KiCad status (supersedes historical draft notes)
+
+- As of 2026-11-23: GitHub Actions run https://github.com/l3chat/eTiWi/actions/runs/45141843146 exported a 4-page A4 PDF from actual hierarchical KiCad 9.0.9 schematics; ERC report: **0 errors, 0 warnings**.
+- Cross-checked 77 electrical net groups and 255 component pin connections against the original pre-refactor netlist; all memberships identical.
+- Human-reviewed rendered four-page PDF, refined layout away from border/title; audio J5 BOM-excluded with no DNP marker.
+- Still NOT manufacturing-ready: provisional U3 pressure footprint, USB-C and RP2354A polarized regulator layout/ESD/current review, supplier BOM, and actual routed PCB/DRC remain unfinished.

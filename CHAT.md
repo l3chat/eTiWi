@@ -114,3 +114,11 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - Sensors: shifted connected U3 LPS28DFW and C103 decoupling group up by 25.4mm to clear title block, preserving net positions together.
 - Audio: J5 through-hole-only optional connector removed from BOM and its KiCad DNP red X removed; no factory-fitted header expected.
 - Re-run native KiCad PDF/ERC before declaring final.
+
+## 2026-11-23: KiCad V0.2 ERC and PDF verified
+
+- Final after layout polish: GitHub Actions successful https://github.com/l3chat/eTiWi/actions/runs/45141843146.
+- KiCad 9.0.9 ERC 0 errors, 0 warnings. Four-page native A4 PDF reviewed and borders/titles clear.
+- Independently compared all 77 net groups and 255 ref/pin memberships to original monolithic netlist; equal.
+- Refreshed design status and README files to remove stale 'no schematic/no ERC' claims.
+- Next hardware stage: validate provisional U3 CCLGA footprint and manufacturer parts, then PCB layout and DRC. No PCB preview exists yet.

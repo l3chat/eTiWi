@@ -1,4 +1,4 @@
-# eTiWi Mini hardware — planned, not yet schematic
+# eTiWi Mini hardware — KiCad schematic V0.2 (ERC passed)
 
 ## V0.1 blocks
 
@@ -29,7 +29,7 @@
 - [Provisional pin plan](pin_plan.md).
 - [Universal audio interface](audio_interface.md).
 - [Candidate BOM](bom.csv) — **not a finalized procurement file**.
-- [KiCad schematic](kicad/eTiWi-mini.kicad_sch) and [draft status](kicad/DESIGN_STATUS.md) — unverified electrical draft.
+- [KiCad schematic](kicad/eTiWi-mini.kicad_sch) and [draft status](kicad/DESIGN_STATUS.md) — KiCad 9 ERC passed; manufacturing details still unverified.
 
 ## Gate before manufacturing
 
