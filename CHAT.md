@@ -101,3 +101,9 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 - User reported native KiCad PDF is poorly laid out; confirmed schematic parts outside A3 and title block overlap.
 - ERC findings: 96 endpoint_off_grid, 88 lib_symbol_issues, 11 footprint_link_issues (195 warnings, not 0 valid issues).
 - Added native editable schematic snapshot to GitHub artifact and KiCad library environment logging for local analysis before substantive layout restructure.
+
+## 2026-11-23: schematic refactoring for readable native PDF
+
+- Original PDF showed components outside A3 and audio filter overlaying title block. Created KiCad V0.2 hierarchy with three A4 functional schematic sheets plus overview, moved all 88 original component instances and 255 wires, split into functional areas and snapped to 1.27mm grid.
+- Added local symbol libraries derived from embedded symbol definitions, `sym-lib-table` and the source reference KiCad project settings.
+- Requires new GitHub Actions KiCad ERC and PDF inspection. Do not call manufacturing ready before review.

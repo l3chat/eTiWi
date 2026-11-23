@@ -45,3 +45,7 @@ and the CI workflow output has not yet been verified by a completed run.
 An independently prepared, three-page vector **functional electrical
 preview** is provided to the user through the ChatGPT conversation. It is
 not an exact KiCad graphical export and is not manufacturing approval.
+
+## Readable KiCad V0.2 schematic
+
+The main `eTiWi-mini.kicad_sch` is now a four-page KiCad hierarchy (overview plus three A4 functional sheets): `01_controller_usb_power.kicad_sch`, `02_touch_pressure.kicad_sch`, `03_audio_expansion.kicad_sch`. Signals crossing sheets use global labels. Custom symbols are provided in the portable project-local `sym_local/` library with `sym-lib-table`; original source licensed under MIT. Source components shifted onto the 50-mil grid. KiCad ERC and netlist validation are required after migration; the previous warnings apply only to the old monolithic design.
