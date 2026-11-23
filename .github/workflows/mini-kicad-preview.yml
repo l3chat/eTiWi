@@ -1,0 +1,53 @@
+name: eTiWi Mini KiCad PDF and ERC
+on:
+  push:
+    paths:
+      - 'mini/hardware/kicad/**'
+      - '.github/workflows/mini-kicad-preview.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  export-and-check:
+    runs-on: ubuntu-latest
+    container:
+      image: ghcr.io/kicad/kicad:9.0
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate previews and ERC report
+        shell: bash
+        run: |
+          set -u
+          mkdir -p mini-preview
+          kicad-cli version | tee mini-preview/kicad-version.txt
+          SCHEMATIC=mini/hardware/kicad/eTiWi-mini.kicad_sch
+          BOARD=mini/hardware/kicad/eTiWi-mini.kicad_pcb
+          kicad-cli sch export pdf "$SCHEMATIC" -o mini-preview/eTiWi-mini-schematic.pdf
+          kicad-cli sch export netlist "$SCHEMATIC" -o mini-preview/eTiWi-mini.net
+          set +e
+          kicad-cli sch erc "$SCHEMATIC" -o mini-preview/eTiWi-mini-erc.txt
+          ERC_CODE=$?
+          set -e
+          printf "ERC exit code: %s\n" "$ERC_CODE" | tee mini-preview/erc-summary.txt
+          if [ -f "$BOARD" ]; then
+            kicad-cli pcb export pdf "$BOARD" --layers F.Cu,F.SilkS,Edge.Cuts -o mini-preview/eTiWi-mini-pcb.pdf
+            set +e
+            kicad-cli pcb drc "$BOARD" -o mini-preview/eTiWi-mini-drc.txt
+            DRC_CODE=$?
+            set -e
+            printf "DRC exit code: %s\n" "$DRC_CODE" | tee mini-preview/drc-summary.txt
+          else
+            echo "PCB not created yet; only schematic preview exported." > mini-preview/pcb-status.txt
+          fi
+
+      - name: Upload KiCad PDFs and verification reports
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: etiwi-mini-kicad-previews
+          path: mini-preview/
+          if-no-files-found: warn
