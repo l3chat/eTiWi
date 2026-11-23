@@ -194,3 +194,12 @@ Keep `MEMORY.md` and `CHAT.md` consistent with the files being committed.
 
 - Wrote provisional `PCB_LAYOUT_CONSTRAINTS.md`: 160x32mm, four-layer test carrier with 8 covered touch pads, pressure-port and USB-C routing constraints; requires mechanical/ergonomic approval before routing.
 - Added `check_footprints.py` local KiCad library invariants: L1 dot on pad1, ST CCLGA 1..7 map, USB-C pad names and touch pad F.Cu-only under solder mask. CI publishes footprint-gate.txt; this is not board DRC.
+
+## 2026-11-23: pre-layout CI checkpoint completed
+
+- Downloaded GitHub Actions artifact from successful run 45179082291.
+- Verified KiCad ERC 0 errors / 0 warnings; netlist critical-pin gate PASS;
+  custom-footprint invariant gate PASS; four-page PDF present.
+- Updated design status with audited tests. Physical fabrication blockers
+  remain (U3 assembly/stencil, L1 polarity/layout, J1 edge/ESD and mechanical
+  fit). No `.kicad_pcb` or DRC yet.

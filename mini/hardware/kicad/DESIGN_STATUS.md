@@ -163,3 +163,21 @@ A previous draft exported ERC 0/0 but omitted newly created C201 because its clo
   accidental pad-number/mask/polarity changes in custom footprints.
 - Still NO routed PCB or PCB DRC. Real manufacturer land pattern/rotation
   and case/ergonomics must be reviewed at layout.
+
+## Verified pre-layout CI checkpoint (2026-11-23)
+
+**Successful GitHub Actions run:** https://github.com/l3chat/eTiWi/actions/runs/45179082291
+
+- KiCad 9.0.9: schematic ERC **0 errors, 0 warnings**.
+- `netlist-gate.txt`: PASS — 27 critical named pins, 6 paired links,
+  all 8 capacitive sensing electrodes. Both C2 and C201 supply bypass
+  terminals are included in the exported electrical netlist.
+- `footprint-gate.txt`: PASS — local CAD footprint pads/markers for
+  L1, LPS28DFW, USB-C and covered touch pads (NOT a fab/rotation sign-off).
+- Native 4-page PDF produced, and `FOOTPRINT_AUDIT.md` included as an
+  artifact.
+- **No `.kicad_pcb` and no PCB DRC**. A provisional placement design
+  contract is provided in `PCB_LAYOUT_CONSTRAINTS.md`; its 160x32mm test
+  geometry has not been mechanically validated or manufactured.
+
+This checkpoint supersedes earlier pending post-capacitor verification notes.

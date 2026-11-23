@@ -48,3 +48,9 @@ but the board/assembly review is still pending.
 - `ci/check_netlist.py` and `ci/check_footprints.py` are run by the
   PDF/ERC workflow and included as text gate results in CI artifacts.
   They check CAD invariants, not real PCB DRC.
+
+## Verified CI checkpoint
+
+Latest confirmed pre-layout run: [PDF, ERC, netlist gate, footprint gate](https://github.com/l3chat/eTiWi/actions/runs/45179082291)
+(`etiwi-mini-kicad-previews` artifact). All three current checks
+pass, but the physical PCB and DRC do not yet exist.

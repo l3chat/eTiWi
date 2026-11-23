@@ -129,3 +129,5 @@ Stand: 2026-11-23
 - 2026-11-23: Critical structural bug: cloned C201 had eight malformed `((at ...)` properties and KiCad silently omitted C201 from netlist while ERC still 0/0. Repaired all eight to `(at ...)`, structurally balanced the whole schematic, and added a new CI netlist gate (`mini/hardware/kicad/ci/check_netlist.py`) that tests C201/C2 rails, RP regulator, USB CC, I2C pins and eight electrodes. Require CI validation before PCB.
 
 - 2026-11-23: Provisional layout proposal `PCB_LAYOUT_CONSTRAINTS.md` for 160x32mm 4-layer *test* carrier, not user-approved final geometry. Explicit RP2354A switching regulator reference, ST pressure mechanical port, covered finger-pad routing and USB ESD gate. Added CI `check_footprints.py` for local pad IDs/polarity/mask only; NOT PCB DRC.
+
+- Pre-layout verification run 45179082291 passed: ERC 0/0, netlist gate PASS (27 critical pins, 6 linked groups, 8 electrodes), footprint invariant gate PASS, KiCad PDF generated. Four-page schematic remains valid; no PCB file/DRC. Treat 160×32 mm mechanical carrier only as proposed test geometry, not verified/approved fabrication size.
